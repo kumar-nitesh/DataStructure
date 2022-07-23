@@ -1,0 +1,15 @@
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\bin\Debug\net6.0\RemoveAdjacentDuplicates.exe
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\bin\Debug\net6.0\RemoveAdjacentDuplicates.deps.json
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\bin\Debug\net6.0\RemoveAdjacentDuplicates.runtimeconfig.json
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\bin\Debug\net6.0\RemoveAdjacentDuplicates.dll
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\bin\Debug\net6.0\RemoveAdjacentDuplicates.pdb
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\obj\Debug\net6.0\RemoveAdjacentDuplicates.csproj.AssemblyReference.cache
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\obj\Debug\net6.0\RemoveAdjacentDuplicates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\obj\Debug\net6.0\RemoveAdjacentDuplicates.AssemblyInfoInputs.cache
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\obj\Debug\net6.0\RemoveAdjacentDuplicates.AssemblyInfo.cs
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\obj\Debug\net6.0\RemoveAdjacentDuplicates.csproj.CoreCompileInputs.cache
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\obj\Debug\net6.0\RemoveAdjacentDuplicates.dll
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\obj\Debug\net6.0\refint\RemoveAdjacentDuplicates.dll
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\obj\Debug\net6.0\RemoveAdjacentDuplicates.pdb
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\obj\Debug\net6.0\RemoveAdjacentDuplicates.genruntimeconfig.cache
+C:\Users\nikum\source\repos\DataStructure\String\RemoveAdjacentDuplicates\obj\Debug\net6.0\ref\RemoveAdjacentDuplicates.dll

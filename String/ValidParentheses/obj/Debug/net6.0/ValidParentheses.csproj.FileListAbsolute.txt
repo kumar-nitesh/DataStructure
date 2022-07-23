@@ -1,0 +1,15 @@
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\bin\Debug\net6.0\ValidParentheses.exe
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\bin\Debug\net6.0\ValidParentheses.deps.json
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\bin\Debug\net6.0\ValidParentheses.runtimeconfig.json
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\bin\Debug\net6.0\ValidParentheses.dll
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\bin\Debug\net6.0\ValidParentheses.pdb
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\obj\Debug\net6.0\ValidParentheses.csproj.AssemblyReference.cache
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\obj\Debug\net6.0\ValidParentheses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\obj\Debug\net6.0\ValidParentheses.AssemblyInfoInputs.cache
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\obj\Debug\net6.0\ValidParentheses.AssemblyInfo.cs
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\obj\Debug\net6.0\ValidParentheses.csproj.CoreCompileInputs.cache
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\obj\Debug\net6.0\ValidParentheses.dll
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\obj\Debug\net6.0\refint\ValidParentheses.dll
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\obj\Debug\net6.0\ValidParentheses.pdb
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\obj\Debug\net6.0\ValidParentheses.genruntimeconfig.cache
+C:\Users\nikum\source\repos\DataStructure\String\ValidParentheses\obj\Debug\net6.0\ref\ValidParentheses.dll

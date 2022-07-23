@@ -1,0 +1,15 @@
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\bin\Debug\net6.0\Permutation.exe
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\bin\Debug\net6.0\Permutation.deps.json
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\bin\Debug\net6.0\Permutation.runtimeconfig.json
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\bin\Debug\net6.0\Permutation.dll
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\bin\Debug\net6.0\Permutation.pdb
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\obj\Debug\net6.0\Permutation.csproj.AssemblyReference.cache
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\obj\Debug\net6.0\Permutation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\obj\Debug\net6.0\Permutation.AssemblyInfoInputs.cache
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\obj\Debug\net6.0\Permutation.AssemblyInfo.cs
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\obj\Debug\net6.0\Permutation.csproj.CoreCompileInputs.cache
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\obj\Debug\net6.0\Permutation.dll
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\obj\Debug\net6.0\refint\Permutation.dll
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\obj\Debug\net6.0\Permutation.pdb
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\obj\Debug\net6.0\Permutation.genruntimeconfig.cache
+C:\Users\nikum\source\repos\DataStructure\String\Permutation\obj\Debug\net6.0\ref\Permutation.dll

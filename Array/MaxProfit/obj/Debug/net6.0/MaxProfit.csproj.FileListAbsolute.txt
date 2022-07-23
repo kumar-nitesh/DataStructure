@@ -1,0 +1,30 @@
+C:\Users\nikum\source\repos\L100\MaxProfit\bin\Debug\net6.0\MaxProfit.exe
+C:\Users\nikum\source\repos\L100\MaxProfit\bin\Debug\net6.0\MaxProfit.deps.json
+C:\Users\nikum\source\repos\L100\MaxProfit\bin\Debug\net6.0\MaxProfit.runtimeconfig.json
+C:\Users\nikum\source\repos\L100\MaxProfit\bin\Debug\net6.0\MaxProfit.dll
+C:\Users\nikum\source\repos\L100\MaxProfit\bin\Debug\net6.0\MaxProfit.pdb
+C:\Users\nikum\source\repos\L100\MaxProfit\obj\Debug\net6.0\MaxProfit.csproj.AssemblyReference.cache
+C:\Users\nikum\source\repos\L100\MaxProfit\obj\Debug\net6.0\MaxProfit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikum\source\repos\L100\MaxProfit\obj\Debug\net6.0\MaxProfit.AssemblyInfoInputs.cache
+C:\Users\nikum\source\repos\L100\MaxProfit\obj\Debug\net6.0\MaxProfit.AssemblyInfo.cs
+C:\Users\nikum\source\repos\L100\MaxProfit\obj\Debug\net6.0\MaxProfit.csproj.CoreCompileInputs.cache
+C:\Users\nikum\source\repos\L100\MaxProfit\obj\Debug\net6.0\MaxProfit.dll
+C:\Users\nikum\source\repos\L100\MaxProfit\obj\Debug\net6.0\refint\MaxProfit.dll
+C:\Users\nikum\source\repos\L100\MaxProfit\obj\Debug\net6.0\MaxProfit.pdb
+C:\Users\nikum\source\repos\L100\MaxProfit\obj\Debug\net6.0\MaxProfit.genruntimeconfig.cache
+C:\Users\nikum\source\repos\L100\MaxProfit\obj\Debug\net6.0\ref\MaxProfit.dll
+D:\MyCode\Data Structure\Array\MaxProfit\bin\Debug\net6.0\MaxProfit.exe
+D:\MyCode\Data Structure\Array\MaxProfit\bin\Debug\net6.0\MaxProfit.deps.json
+D:\MyCode\Data Structure\Array\MaxProfit\bin\Debug\net6.0\MaxProfit.runtimeconfig.json
+D:\MyCode\Data Structure\Array\MaxProfit\bin\Debug\net6.0\MaxProfit.dll
+D:\MyCode\Data Structure\Array\MaxProfit\bin\Debug\net6.0\MaxProfit.pdb
+D:\MyCode\Data Structure\Array\MaxProfit\obj\Debug\net6.0\MaxProfit.csproj.AssemblyReference.cache
+D:\MyCode\Data Structure\Array\MaxProfit\obj\Debug\net6.0\MaxProfit.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyCode\Data Structure\Array\MaxProfit\obj\Debug\net6.0\MaxProfit.AssemblyInfoInputs.cache
+D:\MyCode\Data Structure\Array\MaxProfit\obj\Debug\net6.0\MaxProfit.AssemblyInfo.cs
+D:\MyCode\Data Structure\Array\MaxProfit\obj\Debug\net6.0\MaxProfit.csproj.CoreCompileInputs.cache
+D:\MyCode\Data Structure\Array\MaxProfit\obj\Debug\net6.0\MaxProfit.dll
+D:\MyCode\Data Structure\Array\MaxProfit\obj\Debug\net6.0\refint\MaxProfit.dll
+D:\MyCode\Data Structure\Array\MaxProfit\obj\Debug\net6.0\MaxProfit.pdb
+D:\MyCode\Data Structure\Array\MaxProfit\obj\Debug\net6.0\MaxProfit.genruntimeconfig.cache
+D:\MyCode\Data Structure\Array\MaxProfit\obj\Debug\net6.0\ref\MaxProfit.dll

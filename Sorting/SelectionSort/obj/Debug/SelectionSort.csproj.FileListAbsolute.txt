@@ -1,0 +1,16 @@
+D:\MyCode\Data Structure\SelectionSort\bin\Debug\SelectionSort.exe.config
+D:\MyCode\Data Structure\SelectionSort\bin\Debug\SelectionSort.exe
+D:\MyCode\Data Structure\SelectionSort\bin\Debug\SelectionSort.pdb
+D:\MyCode\Data Structure\SelectionSort\obj\Debug\SelectionSort.csproj.AssemblyReference.cache
+D:\MyCode\Data Structure\SelectionSort\obj\Debug\SelectionSort.csproj.SuggestedBindingRedirects.cache
+D:\MyCode\Data Structure\SelectionSort\obj\Debug\SelectionSort.csproj.CoreCompileInputs.cache
+D:\MyCode\Data Structure\SelectionSort\obj\Debug\SelectionSort.exe
+D:\MyCode\Data Structure\SelectionSort\obj\Debug\SelectionSort.pdb
+C:\Users\nikum\source\repos\DataStructure\Sorting\SelectionSort\bin\Debug\SelectionSort.exe.config
+C:\Users\nikum\source\repos\DataStructure\Sorting\SelectionSort\bin\Debug\SelectionSort.exe
+C:\Users\nikum\source\repos\DataStructure\Sorting\SelectionSort\bin\Debug\SelectionSort.pdb
+C:\Users\nikum\source\repos\DataStructure\Sorting\SelectionSort\obj\Debug\SelectionSort.csproj.AssemblyReference.cache
+C:\Users\nikum\source\repos\DataStructure\Sorting\SelectionSort\obj\Debug\SelectionSort.csproj.SuggestedBindingRedirects.cache
+C:\Users\nikum\source\repos\DataStructure\Sorting\SelectionSort\obj\Debug\SelectionSort.csproj.CoreCompileInputs.cache
+C:\Users\nikum\source\repos\DataStructure\Sorting\SelectionSort\obj\Debug\SelectionSort.exe
+C:\Users\nikum\source\repos\DataStructure\Sorting\SelectionSort\obj\Debug\SelectionSort.pdb

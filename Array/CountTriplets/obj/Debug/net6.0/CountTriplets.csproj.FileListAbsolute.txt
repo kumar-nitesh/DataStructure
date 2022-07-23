@@ -1,0 +1,15 @@
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\bin\Debug\net6.0\CountTriplets.exe
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\bin\Debug\net6.0\CountTriplets.deps.json
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\bin\Debug\net6.0\CountTriplets.runtimeconfig.json
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\bin\Debug\net6.0\CountTriplets.dll
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\bin\Debug\net6.0\CountTriplets.pdb
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\obj\Debug\net6.0\CountTriplets.csproj.AssemblyReference.cache
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\obj\Debug\net6.0\CountTriplets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\obj\Debug\net6.0\CountTriplets.AssemblyInfoInputs.cache
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\obj\Debug\net6.0\CountTriplets.AssemblyInfo.cs
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\obj\Debug\net6.0\CountTriplets.csproj.CoreCompileInputs.cache
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\obj\Debug\net6.0\CountTriplets.dll
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\obj\Debug\net6.0\refint\CountTriplets.dll
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\obj\Debug\net6.0\CountTriplets.pdb
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\obj\Debug\net6.0\CountTriplets.genruntimeconfig.cache
+C:\Users\nikum\source\repos\DataStructure\Array\CountTriplets\obj\Debug\net6.0\ref\CountTriplets.dll

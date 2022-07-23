@@ -1,0 +1,15 @@
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\bin\Debug\net6.0\FibonacciNumber.exe
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\bin\Debug\net6.0\FibonacciNumber.deps.json
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\bin\Debug\net6.0\FibonacciNumber.runtimeconfig.json
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\bin\Debug\net6.0\FibonacciNumber.dll
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\bin\Debug\net6.0\FibonacciNumber.pdb
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\obj\Debug\net6.0\FibonacciNumber.csproj.AssemblyReference.cache
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\obj\Debug\net6.0\FibonacciNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\obj\Debug\net6.0\FibonacciNumber.AssemblyInfoInputs.cache
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\obj\Debug\net6.0\FibonacciNumber.AssemblyInfo.cs
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\obj\Debug\net6.0\FibonacciNumber.csproj.CoreCompileInputs.cache
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\obj\Debug\net6.0\FibonacciNumber.dll
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\obj\Debug\net6.0\refint\FibonacciNumber.dll
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\obj\Debug\net6.0\FibonacciNumber.pdb
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\obj\Debug\net6.0\FibonacciNumber.genruntimeconfig.cache
+C:\Users\nikum\source\repos\DataStructure\Array\FibonacciNumber\obj\Debug\net6.0\ref\FibonacciNumber.dll
