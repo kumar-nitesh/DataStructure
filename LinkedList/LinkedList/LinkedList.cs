@@ -2,8 +2,8 @@
 {
     public partial class LinkedList
     {
-        public Node? Head;
-        public int Size;
+        public Node Head { get; set; }
+        public int Size { get; set; }
 
         public LinkedList()
         {
