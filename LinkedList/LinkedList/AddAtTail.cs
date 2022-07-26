@@ -2,6 +2,10 @@
 {
     public partial class LinkedList
     {
+        /// <summary>
+        /// Add at Tail of the List. 
+        /// </summary>
+        /// Time Complexity: O(N) 
         public void AddAtTail(int val)
         {
             Node node = new Node(val);

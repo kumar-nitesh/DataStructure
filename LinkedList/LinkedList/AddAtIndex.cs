@@ -2,6 +2,10 @@
 {
     public partial class LinkedList
     {
+        /// <summary>
+        /// Add at Index of the List. 
+        /// </summary>
+        /// Time Complexity: O(1) 
         public void AddAtIndex(int index, int val)
         {
             Node newNode = new Node(val);

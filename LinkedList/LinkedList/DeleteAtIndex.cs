@@ -2,6 +2,10 @@
 {
     public partial class LinkedList
     {
+        /// <summary>
+        /// Delete At Index of the List. 
+        /// </summary>
+        /// Time Complexity: O(1) 
         public void DeleteAtIndex(int index)
         {
             if (index < 0 || index >= Size)
@@ -14,7 +18,7 @@
 
             if (index == 0)
             {
-                Head = current?.Next;
+                Head = current.Next;
                 Size--;
             }
             else
