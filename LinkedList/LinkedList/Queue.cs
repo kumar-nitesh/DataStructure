@@ -11,5 +11,30 @@
         {
 
         }
+
+        /// <summary>
+        /// Method to add an key to the queue.
+        /// Use Add at Tail Method.
+        /// </summary>
+        /// Time Complexity: O(N) 
+        public void enqueue(int key)
+        {
+            Node newNode = new Node(key);
+            Node temp = Head;
+
+            while (temp != null)
+            {
+                temp = temp.Next;
+            }
+
+            temp.Next = newNode;
+            Size++;
+        }
+
+
+        // Method to remove an key from queue.
+        public void dequeue()
+        {
+        }
     }
 }

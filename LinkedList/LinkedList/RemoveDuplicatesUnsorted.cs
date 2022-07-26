@@ -7,7 +7,7 @@
         /// </summary>
         /// Time Complexity: O(n * n) 
         /// Auxiliary Space: O(1)
-        public void RemoveDuplicatesUnsorted(LinkedList list)
+        public Node RemoveDuplicatesUnsorted(LinkedList list)
         {
             Node current = list.Head;
 
@@ -29,6 +29,8 @@
 
                 current = current.Next;
             }
+
+            return list.Head;
         }
     }
 }

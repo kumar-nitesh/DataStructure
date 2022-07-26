@@ -7,14 +7,14 @@
         /// </summary>
         /// Time Complexity: O(n) 
         /// Auxiliary Space: O(1)
-        public void RemoveDuplicatesSorted(LinkedList list)
+        public Node RemoveDuplicatesSorted(LinkedList list)
         {
             Node current = list.Head;
             Node nextNext = null;
 
             if (current == null || current.Next == null)
             {
-                return;
+                return null;
             }
 
             while (current?.Next != null)
@@ -30,6 +30,8 @@
                     current = current.Next;
                 }
             }
+
+            return list.Head;
         }
     }
 }

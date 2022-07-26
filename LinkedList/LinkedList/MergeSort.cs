@@ -1,12 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LinkedList
+﻿namespace LinkedList
 {
-    internal class MergeSort
+    public partial class LinkedList
     {
+        public Node MergeSort(Node head)
+        {
+            if (head == null || head.Next == null)
+            {
+                return head;
+            }
+
+            Node middle = FindMiddle(head);
+            Node nextOfMiddle = middle.Next;
+
+            middle.Next = null;
+
+            Node left = MergeSort(head);
+            Node right = MergeSort(nextOfMiddle);
+
+            Node sortedList = MergeTwoSortedListRecursion(left, right);
+
+            return sortedList;
+        }
+
+        /// <summary>
+        /// Tortoise And Hare Approach
+        /// </summary>
+        public Node FindMiddle(Node head)
+        {
+            Node slow = head;
+            Node fast = head.Next;
+
+            while (fast != null && fast.Next != null)
+            {
+                fast = fast.Next.Next;
+                slow = slow.Next;
+            }
+            return slow;
+        }
     }
 }

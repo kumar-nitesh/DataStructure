@@ -23,16 +23,23 @@
             }
             else
             {
-                nodeB = nodeB.Next;
+                for (int i = 0; i < diff; i++)
+                {
+                    nodeB = nodeB.Next;
+                }
             }
 
             while (nodeA != nodeB)
             {
+                if (nodeA.Data == nodeB.Data)
+                {
+                    return nodeA.Data;
+                }
                 nodeA = nodeA.Next;
                 nodeB = nodeB.Next;
             }
 
-            return nodeA.Data;
+            return -1;
         }
     }
 }

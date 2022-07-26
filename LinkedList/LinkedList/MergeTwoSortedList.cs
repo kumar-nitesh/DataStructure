@@ -69,12 +69,12 @@
 
             if (list1.Data > list2.Data)
             {
-                list2.Next = MergeTwoSortedList(list1, list2.Next);
+                list2.Next = MergeTwoSortedListRecursion(list1, list2.Next);
                 return list2;
             }
             else
             {
-                list1.Next = MergeTwoSortedList(list1.Next, list2);
+                list1.Next = MergeTwoSortedListRecursion(list1.Next, list2);
                 return list1;
             }
         }
