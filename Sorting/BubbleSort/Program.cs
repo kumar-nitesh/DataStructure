@@ -45,6 +45,12 @@ namespace BubbleSort
             Console.ReadKey(true);
         }
 
+        /// <summary>
+        /// Optimized by stopping the algorithm(isSwapped) 
+        /// if the inner loop didn’t cause any swap. 
+        /// </summary>
+        /// Time Complexity: O(n * n)
+        /// Auxiliary Space: O(1)
         static int[] BubbleSort(int[] array, int size)
         {
             int temp;
