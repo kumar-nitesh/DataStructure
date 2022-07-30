@@ -77,9 +77,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "C:\Users\nikum\so
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateArray", "C:\Users\nikum\source\repos\DataStructure\Array\RotateArray\RotateArray.csproj", "{63C1DE18-6A6E-4682-B40B-8130E64DF642}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DutchNationFlag", "C:\Users\nikum\source\repos\DataStructure\Algorithm\DutchNationFlag\DutchNationFlag.csproj", "{0C2527CD-0462-4FDA-95A9-D2A0A61B9000}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddBinary", "C:\Users\nikum\source\repos\DataStructure\String\AddBinary\AddBinary.csproj", "{982230DA-DB37-44B8-9608-C7F7E8680CCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DutchNationFlag", "Algorithm\DutchNationFlag\DutchNationFlag.csproj", "{854FD478-737E-4699-AD85-203E7CC12596}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -203,14 +203,14 @@ Global
 		{63C1DE18-6A6E-4682-B40B-8130E64DF642}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63C1DE18-6A6E-4682-B40B-8130E64DF642}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63C1DE18-6A6E-4682-B40B-8130E64DF642}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0C2527CD-0462-4FDA-95A9-D2A0A61B9000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0C2527CD-0462-4FDA-95A9-D2A0A61B9000}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0C2527CD-0462-4FDA-95A9-D2A0A61B9000}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0C2527CD-0462-4FDA-95A9-D2A0A61B9000}.Release|Any CPU.Build.0 = Release|Any CPU
 		{982230DA-DB37-44B8-9608-C7F7E8680CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{982230DA-DB37-44B8-9608-C7F7E8680CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{982230DA-DB37-44B8-9608-C7F7E8680CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{982230DA-DB37-44B8-9608-C7F7E8680CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{854FD478-737E-4699-AD85-203E7CC12596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{854FD478-737E-4699-AD85-203E7CC12596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{854FD478-737E-4699-AD85-203E7CC12596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{854FD478-737E-4699-AD85-203E7CC12596}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -245,8 +245,8 @@ Global
 		{D69E0398-BE41-418E-BD6F-FB0183AC0F1D} = {8E1BA740-E0FB-4314-A851-3BF1FB0474EF}
 		{9D013047-3667-47D2-9905-11F8E3951A77} = {8E1BA740-E0FB-4314-A851-3BF1FB0474EF}
 		{63C1DE18-6A6E-4682-B40B-8130E64DF642} = {8E1BA740-E0FB-4314-A851-3BF1FB0474EF}
-		{0C2527CD-0462-4FDA-95A9-D2A0A61B9000} = {A450FA77-27BD-4949-B9A7-12E1D3E1B6BE}
 		{982230DA-DB37-44B8-9608-C7F7E8680CCE} = {867503A3-C9A1-4D30-939F-908D0F1E326A}
+		{854FD478-737E-4699-AD85-203E7CC12596} = {A450FA77-27BD-4949-B9A7-12E1D3E1B6BE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B887228F-BFCD-4BA3-9D9D-48117AA448F1}
