@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyCode\\Data Structure\\Array\\RotateArray\\RotateArray.csproj": {}
+    "D:\\MyCode\\Data-Structures\\Array\\RotateArray\\RotateArray.csproj": {}
   },
   "projects": {
-    "D:\\MyCode\\Data Structure\\Array\\RotateArray\\RotateArray.csproj": {
+    "D:\\MyCode\\Data-Structures\\Array\\RotateArray\\RotateArray.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyCode\\Data Structure\\Array\\RotateArray\\RotateArray.csproj",
+        "projectUniqueName": "D:\\MyCode\\Data-Structures\\Array\\RotateArray\\RotateArray.csproj",
         "projectName": "RotateArray",
-        "projectPath": "D:\\MyCode\\Data Structure\\Array\\RotateArray\\RotateArray.csproj",
+        "projectPath": "D:\\MyCode\\Data-Structures\\Array\\RotateArray\\RotateArray.csproj",
         "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-        "outputPath": "D:\\MyCode\\Data Structure\\Array\\RotateArray\\obj\\",
+        "outputPath": "D:\\MyCode\\Data-Structures\\Array\\RotateArray\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

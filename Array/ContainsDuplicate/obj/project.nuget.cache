@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qeXQO2Hq6wkdNp3OHJkA8VXqAzxpaPr7qPT1zq++kZWRunrq5iBZJdQosVPO8LBGLdeVvFo/MsLxc/MdUfTtZg==",
+  "dgSpecHash": "PQq6/LSnW9nI2mRLZMTJnPqGIRkg4FhffrVGhCj8CuiShrU2hpaDucvsQKj8JauW4eUR4b6Lk07dC5jWi5+tHA==",
   "success": true,
-  "projectFilePath": "D:\\MyCode\\Data Structure\\Array\\ContainsDuplicate\\ContainsDuplicate.csproj",
+  "projectFilePath": "D:\\MyCode\\Data-Structures\\Array\\ContainsDuplicate\\ContainsDuplicate.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

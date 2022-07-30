@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyCode\\Data Structure\\Array\\RomanToInteger\\RomanToInteger.csproj": {}
+    "D:\\MyCode\\Data-Structures\\Array\\RomanToInteger\\RomanToInteger.csproj": {}
   },
   "projects": {
-    "D:\\MyCode\\Data Structure\\Array\\RomanToInteger\\RomanToInteger.csproj": {
+    "D:\\MyCode\\Data-Structures\\Array\\RomanToInteger\\RomanToInteger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyCode\\Data Structure\\Array\\RomanToInteger\\RomanToInteger.csproj",
+        "projectUniqueName": "D:\\MyCode\\Data-Structures\\Array\\RomanToInteger\\RomanToInteger.csproj",
         "projectName": "RomanToInteger",
-        "projectPath": "D:\\MyCode\\Data Structure\\Array\\RomanToInteger\\RomanToInteger.csproj",
+        "projectPath": "D:\\MyCode\\Data-Structures\\Array\\RomanToInteger\\RomanToInteger.csproj",
         "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-        "outputPath": "D:\\MyCode\\Data Structure\\Array\\RomanToInteger\\obj\\",
+        "outputPath": "D:\\MyCode\\Data-Structures\\Array\\RomanToInteger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

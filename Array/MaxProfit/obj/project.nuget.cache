@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jXXSHLd1VpRyoHaNqNhlcYvzjr/iG30b2aI+gLWmuM3mAeA7J6PUe+t17O5w4EJWj1EzVlrv2o4qKQfWdjudsQ==",
+  "dgSpecHash": "S5u2mgCcl3cTx+Ccnn5yC2KCJm1AzhWzBtPLkC9jHwQwfDbMTyD75v582hxmXnqG0iR3jrBTT3xEzJsdZMkS1w==",
   "success": true,
-  "projectFilePath": "D:\\MyCode\\Data Structure\\Array\\MaxProfit\\MaxProfit.csproj",
+  "projectFilePath": "D:\\MyCode\\Data-Structures\\Array\\MaxProfit\\MaxProfit.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

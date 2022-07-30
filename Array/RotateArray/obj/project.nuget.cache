@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uQwGUYQZqE9BXMFY/8/alFb0d5x2T/2yKbDkcBQgcZcMs2kn7IFQ60Puw2rm9/YC9YHkDZY7aZV89SpPWMFVyQ==",
+  "dgSpecHash": "u8S2NQlYHvb4Q3S4yZ4fHGLhh6u4/MMG3/EvkGPf9sin8dOAFehe3fD9EOYMZCSaw8b0+kCF65FQRQ+czL2hIQ==",
   "success": true,
-  "projectFilePath": "D:\\MyCode\\Data Structure\\Array\\RotateArray\\RotateArray.csproj",
+  "projectFilePath": "D:\\MyCode\\Data-Structures\\Array\\RotateArray\\RotateArray.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

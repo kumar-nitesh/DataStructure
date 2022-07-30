@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyCode\\Data Structure\\Array\\RemoveDuplicates\\RemoveDuplicates.csproj",
+      "projectUniqueName": "D:\\MyCode\\Data-Structures\\Array\\RemoveDuplicates\\RemoveDuplicates.csproj",
       "projectName": "RemoveDuplicates",
-      "projectPath": "D:\\MyCode\\Data Structure\\Array\\RemoveDuplicates\\RemoveDuplicates.csproj",
+      "projectPath": "D:\\MyCode\\Data-Structures\\Array\\RemoveDuplicates\\RemoveDuplicates.csproj",
       "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-      "outputPath": "D:\\MyCode\\Data Structure\\Array\\RemoveDuplicates\\obj\\",
+      "outputPath": "D:\\MyCode\\Data-Structures\\Array\\RemoveDuplicates\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

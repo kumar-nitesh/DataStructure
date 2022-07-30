@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyCode\\Data Structure\\Array\\ContainsDuplicate\\ContainsDuplicate.csproj",
+      "projectUniqueName": "D:\\MyCode\\Data-Structures\\Array\\ContainsDuplicate\\ContainsDuplicate.csproj",
       "projectName": "ContainsDuplicate",
-      "projectPath": "D:\\MyCode\\Data Structure\\Array\\ContainsDuplicate\\ContainsDuplicate.csproj",
+      "projectPath": "D:\\MyCode\\Data-Structures\\Array\\ContainsDuplicate\\ContainsDuplicate.csproj",
       "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-      "outputPath": "D:\\MyCode\\Data Structure\\Array\\ContainsDuplicate\\obj\\",
+      "outputPath": "D:\\MyCode\\Data-Structures\\Array\\ContainsDuplicate\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyCode\\Data Structure\\Array\\TwoSum\\TwoSum.csproj": {}
+    "D:\\MyCode\\Data-Structures\\Array\\TwoSum\\TwoSum.csproj": {}
   },
   "projects": {
-    "D:\\MyCode\\Data Structure\\Array\\TwoSum\\TwoSum.csproj": {
+    "D:\\MyCode\\Data-Structures\\Array\\TwoSum\\TwoSum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyCode\\Data Structure\\Array\\TwoSum\\TwoSum.csproj",
+        "projectUniqueName": "D:\\MyCode\\Data-Structures\\Array\\TwoSum\\TwoSum.csproj",
         "projectName": "TwoSum",
-        "projectPath": "D:\\MyCode\\Data Structure\\Array\\TwoSum\\TwoSum.csproj",
+        "projectPath": "D:\\MyCode\\Data-Structures\\Array\\TwoSum\\TwoSum.csproj",
         "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-        "outputPath": "D:\\MyCode\\Data Structure\\Array\\TwoSum\\obj\\",
+        "outputPath": "D:\\MyCode\\Data-Structures\\Array\\TwoSum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
