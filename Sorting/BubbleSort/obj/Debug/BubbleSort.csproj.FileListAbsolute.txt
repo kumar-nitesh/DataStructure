@@ -14,3 +14,11 @@ C:\Users\nikum\source\repos\DataStructure\Sorting\BubbleSort\obj\Debug\BubbleSor
 C:\Users\nikum\source\repos\DataStructure\Sorting\BubbleSort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
 C:\Users\nikum\source\repos\DataStructure\Sorting\BubbleSort\obj\Debug\BubbleSort.exe
 C:\Users\nikum\source\repos\DataStructure\Sorting\BubbleSort\obj\Debug\BubbleSort.pdb
+D:\MyCode\Data-Structures\Sorting\BubbleSort\bin\Debug\BubbleSort.exe.config
+D:\MyCode\Data-Structures\Sorting\BubbleSort\bin\Debug\BubbleSort.exe
+D:\MyCode\Data-Structures\Sorting\BubbleSort\bin\Debug\BubbleSort.pdb
+D:\MyCode\Data-Structures\Sorting\BubbleSort\obj\Debug\BubbleSort.csproj.AssemblyReference.cache
+D:\MyCode\Data-Structures\Sorting\BubbleSort\obj\Debug\BubbleSort.csproj.SuggestedBindingRedirects.cache
+D:\MyCode\Data-Structures\Sorting\BubbleSort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
+D:\MyCode\Data-Structures\Sorting\BubbleSort\obj\Debug\BubbleSort.exe
+D:\MyCode\Data-Structures\Sorting\BubbleSort\obj\Debug\BubbleSort.pdb

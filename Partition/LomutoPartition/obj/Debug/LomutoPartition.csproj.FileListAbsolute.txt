@@ -14,3 +14,11 @@ C:\Users\nikum\source\repos\DataStructure\Partition\LomutoPartition\obj\Debug\Lo
 C:\Users\nikum\source\repos\DataStructure\Partition\LomutoPartition\obj\Debug\LomutoPartition.csproj.CoreCompileInputs.cache
 C:\Users\nikum\source\repos\DataStructure\Partition\LomutoPartition\obj\Debug\LomutoPartition.exe
 C:\Users\nikum\source\repos\DataStructure\Partition\LomutoPartition\obj\Debug\LomutoPartition.pdb
+D:\MyCode\Data-Structures\Partition\LomutoPartition\bin\Debug\LomutoPartition.exe.config
+D:\MyCode\Data-Structures\Partition\LomutoPartition\bin\Debug\LomutoPartition.exe
+D:\MyCode\Data-Structures\Partition\LomutoPartition\bin\Debug\LomutoPartition.pdb
+D:\MyCode\Data-Structures\Partition\LomutoPartition\obj\Debug\LomutoPartition.csproj.AssemblyReference.cache
+D:\MyCode\Data-Structures\Partition\LomutoPartition\obj\Debug\LomutoPartition.csproj.SuggestedBindingRedirects.cache
+D:\MyCode\Data-Structures\Partition\LomutoPartition\obj\Debug\LomutoPartition.csproj.CoreCompileInputs.cache
+D:\MyCode\Data-Structures\Partition\LomutoPartition\obj\Debug\LomutoPartition.exe
+D:\MyCode\Data-Structures\Partition\LomutoPartition\obj\Debug\LomutoPartition.pdb
