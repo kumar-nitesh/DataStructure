@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c3ykfFu27jHw5tLWPU2XBil3TELiCM2Rje6nt8VAzm/f3f8jAxWnxhWz/tAViDF7o11oWlBYAowULPDNw6G1+A==",
+  "dgSpecHash": "y6I8t7dwM2F9WZk1Qx/hdoDM/Xp4gadtAEUvCcUhpJ+oI+H522qyyROrzzwnyBZTFBQ0/OJsOtvJUw3CXhnOnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\String\\RemoveAdjacentDuplicates\\RemoveAdjacentDuplicates.csproj",
+  "projectFilePath": "D:\\MyCode\\Data-Structures\\String\\RemoveAdjacentDuplicates\\RemoveAdjacentDuplicates.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

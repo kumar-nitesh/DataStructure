@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KM9c9RxQ/OT1m8G4VZUlrk+bs6hzs92ry09aPI4+jSkOB0cwUkSuma1/Msx4cpvIbODer/zyAZ2W7TY+PuN1qw==",
+  "dgSpecHash": "8SguB1OcT50pg7WOh3rJ/kHizU3YLv17nk0iJ03VvcblckuABK13JyAiLGpoC4YPeQAMtokV3ZxP00NUvMrynw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\FindAllDuplicates\\FindAllDuplicates.csproj",
+  "projectFilePath": "D:\\MyCode\\Data-Structures\\Array\\FindAllDuplicates\\FindAllDuplicates.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

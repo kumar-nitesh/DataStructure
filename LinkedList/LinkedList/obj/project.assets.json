@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikum\\source\\repos\\DataStructure\\LinkedList\\LinkedList\\LinkedList.csproj",
+      "projectUniqueName": "D:\\MyCode\\Data-Structures\\LinkedList\\LinkedList\\LinkedList.csproj",
       "projectName": "LinkedList",
-      "projectPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\LinkedList\\LinkedList\\LinkedList.csproj",
+      "projectPath": "D:\\MyCode\\Data-Structures\\LinkedList\\LinkedList\\LinkedList.csproj",
       "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\LinkedList\\LinkedList\\obj\\",
+      "outputPath": "D:\\MyCode\\Data-Structures\\LinkedList\\LinkedList\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",

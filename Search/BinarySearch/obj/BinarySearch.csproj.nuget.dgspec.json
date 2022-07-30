@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikum\\source\\repos\\DataStructure\\Search\\BinarySearch\\BinarySearch.csproj": {}
+    "D:\\MyCode\\Data-Structures\\Search\\BinarySearch\\BinarySearch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikum\\source\\repos\\DataStructure\\Search\\BinarySearch\\BinarySearch.csproj": {
+    "D:\\MyCode\\Data-Structures\\Search\\BinarySearch\\BinarySearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Search\\BinarySearch\\BinarySearch.csproj",
+        "projectUniqueName": "D:\\MyCode\\Data-Structures\\Search\\BinarySearch\\BinarySearch.csproj",
         "projectName": "BinarySearch",
-        "projectPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Search\\BinarySearch\\BinarySearch.csproj",
+        "projectPath": "D:\\MyCode\\Data-Structures\\Search\\BinarySearch\\BinarySearch.csproj",
         "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Search\\BinarySearch\\obj\\",
+        "outputPath": "D:\\MyCode\\Data-Structures\\Search\\BinarySearch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",

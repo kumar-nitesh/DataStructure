@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\FindAllDuplicates\\FindAllDuplicates.csproj",
+      "projectUniqueName": "D:\\MyCode\\Data-Structures\\Array\\FindAllDuplicates\\FindAllDuplicates.csproj",
       "projectName": "FindAllDuplicates",
-      "projectPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\FindAllDuplicates\\FindAllDuplicates.csproj",
+      "projectPath": "D:\\MyCode\\Data-Structures\\Array\\FindAllDuplicates\\FindAllDuplicates.csproj",
       "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\FindAllDuplicates\\obj\\",
+      "outputPath": "D:\\MyCode\\Data-Structures\\Array\\FindAllDuplicates\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",

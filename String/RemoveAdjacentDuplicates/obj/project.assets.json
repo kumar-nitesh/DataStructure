@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikum\\source\\repos\\DataStructure\\String\\RemoveAdjacentDuplicates\\RemoveAdjacentDuplicates.csproj",
+      "projectUniqueName": "D:\\MyCode\\Data-Structures\\String\\RemoveAdjacentDuplicates\\RemoveAdjacentDuplicates.csproj",
       "projectName": "RemoveAdjacentDuplicates",
-      "projectPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\String\\RemoveAdjacentDuplicates\\RemoveAdjacentDuplicates.csproj",
+      "projectPath": "D:\\MyCode\\Data-Structures\\String\\RemoveAdjacentDuplicates\\RemoveAdjacentDuplicates.csproj",
       "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\String\\RemoveAdjacentDuplicates\\obj\\",
+      "outputPath": "D:\\MyCode\\Data-Structures\\String\\RemoveAdjacentDuplicates\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\SubArraySum\\SubArraySum.csproj": {}
+    "D:\\MyCode\\Data-Structures\\Array\\SubArraySum\\SubArraySum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\SubArraySum\\SubArraySum.csproj": {
+    "D:\\MyCode\\Data-Structures\\Array\\SubArraySum\\SubArraySum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\SubArraySum\\SubArraySum.csproj",
+        "projectUniqueName": "D:\\MyCode\\Data-Structures\\Array\\SubArraySum\\SubArraySum.csproj",
         "projectName": "SubArraySum",
-        "projectPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\SubArraySum\\SubArraySum.csproj",
+        "projectPath": "D:\\MyCode\\Data-Structures\\Array\\SubArraySum\\SubArraySum.csproj",
         "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\SubArraySum\\obj\\",
+        "outputPath": "D:\\MyCode\\Data-Structures\\Array\\SubArraySum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",

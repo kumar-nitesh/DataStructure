@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikum\\source\\repos\\DataStructure\\String\\ValidParentheses\\ValidParentheses.csproj",
+      "projectUniqueName": "D:\\MyCode\\Data-Structures\\String\\ValidParentheses\\ValidParentheses.csproj",
       "projectName": "ValidParentheses",
-      "projectPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\String\\ValidParentheses\\ValidParentheses.csproj",
+      "projectPath": "D:\\MyCode\\Data-Structures\\String\\ValidParentheses\\ValidParentheses.csproj",
       "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\String\\ValidParentheses\\obj\\",
+      "outputPath": "D:\\MyCode\\Data-Structures\\String\\ValidParentheses\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bsXY4t9xQH5ltaCVmAkZ7JTvXVs7ZiDd90F4zF49pBm00ivNLIY5JykvwtVq0eatoW+rBdzXy2Z3+jo2pcx4gw==",
+  "dgSpecHash": "iCl8kn0PzcZvqPh+GvtGanv+r/rwhBvRkRpbQydBu8K/0ArOxeGqbtq47NePbukAUOxIdN9UV5qRlHSJmSAvYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\String\\ValidParentheses\\ValidParentheses.csproj",
+  "projectFilePath": "D:\\MyCode\\Data-Structures\\String\\ValidParentheses\\ValidParentheses.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Algorithm\\NewYearChaos\\NewYearChaos.csproj",
+      "projectUniqueName": "D:\\MyCode\\Data-Structures\\Algorithm\\NewYearChaos\\NewYearChaos.csproj",
       "projectName": "NewYearChaos",
-      "projectPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Algorithm\\NewYearChaos\\NewYearChaos.csproj",
+      "projectPath": "D:\\MyCode\\Data-Structures\\Algorithm\\NewYearChaos\\NewYearChaos.csproj",
       "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Algorithm\\NewYearChaos\\obj\\",
+      "outputPath": "D:\\MyCode\\Data-Structures\\Algorithm\\NewYearChaos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\CountTriplets\\CountTriplets.csproj": {}
+    "D:\\MyCode\\Data-Structures\\Array\\CountTriplets\\CountTriplets.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\CountTriplets\\CountTriplets.csproj": {
+    "D:\\MyCode\\Data-Structures\\Array\\CountTriplets\\CountTriplets.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\CountTriplets\\CountTriplets.csproj",
+        "projectUniqueName": "D:\\MyCode\\Data-Structures\\Array\\CountTriplets\\CountTriplets.csproj",
         "projectName": "CountTriplets",
-        "projectPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\CountTriplets\\CountTriplets.csproj",
+        "projectPath": "D:\\MyCode\\Data-Structures\\Array\\CountTriplets\\CountTriplets.csproj",
         "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Array\\CountTriplets\\obj\\",
+        "outputPath": "D:\\MyCode\\Data-Structures\\Array\\CountTriplets\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",
