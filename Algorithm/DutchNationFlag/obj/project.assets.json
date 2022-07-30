@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Algorithm\\DutchNationFlag\\DutchNationFlag.csproj",
+      "projectUniqueName": "D:\\MyCode\\Data-Structures\\Algorithm\\DutchNationFlag\\DutchNationFlag.csproj",
       "projectName": "DutchNationFlag",
-      "projectPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Algorithm\\DutchNationFlag\\DutchNationFlag.csproj",
+      "projectPath": "D:\\MyCode\\Data-Structures\\Algorithm\\DutchNationFlag\\DutchNationFlag.csproj",
       "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikum\\source\\repos\\DataStructure\\Algorithm\\DutchNationFlag\\obj\\",
+      "outputPath": "D:\\MyCode\\Data-Structures\\Algorithm\\DutchNationFlag\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",
