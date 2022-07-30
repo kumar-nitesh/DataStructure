@@ -28,3 +28,18 @@ D:\MyCode\Data Structure\Array\ContainsDuplicate\obj\Debug\net6.0\refint\Contain
 D:\MyCode\Data Structure\Array\ContainsDuplicate\obj\Debug\net6.0\ContainsDuplicate.pdb
 D:\MyCode\Data Structure\Array\ContainsDuplicate\obj\Debug\net6.0\ContainsDuplicate.genruntimeconfig.cache
 D:\MyCode\Data Structure\Array\ContainsDuplicate\obj\Debug\net6.0\ref\ContainsDuplicate.dll
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\bin\Debug\net6.0\ContainsDuplicate.exe
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\bin\Debug\net6.0\ContainsDuplicate.deps.json
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\bin\Debug\net6.0\ContainsDuplicate.runtimeconfig.json
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\bin\Debug\net6.0\ContainsDuplicate.dll
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\bin\Debug\net6.0\ContainsDuplicate.pdb
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\obj\Debug\net6.0\ContainsDuplicate.csproj.AssemblyReference.cache
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\obj\Debug\net6.0\ContainsDuplicate.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\obj\Debug\net6.0\ContainsDuplicate.AssemblyInfoInputs.cache
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\obj\Debug\net6.0\ContainsDuplicate.AssemblyInfo.cs
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\obj\Debug\net6.0\ContainsDuplicate.csproj.CoreCompileInputs.cache
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\obj\Debug\net6.0\ContainsDuplicate.dll
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\obj\Debug\net6.0\refint\ContainsDuplicate.dll
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\obj\Debug\net6.0\ContainsDuplicate.pdb
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\obj\Debug\net6.0\ContainsDuplicate.genruntimeconfig.cache
+D:\MyCode\Data-Structures\Array\ContainsDuplicate\obj\Debug\net6.0\ref\ContainsDuplicate.dll

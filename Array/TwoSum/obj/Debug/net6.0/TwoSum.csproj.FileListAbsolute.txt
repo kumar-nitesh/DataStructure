@@ -28,3 +28,18 @@ D:\MyCode\Data Structure\Array\TwoSum\obj\Debug\net6.0\refint\TwoSum.dll
 D:\MyCode\Data Structure\Array\TwoSum\obj\Debug\net6.0\TwoSum.pdb
 D:\MyCode\Data Structure\Array\TwoSum\obj\Debug\net6.0\TwoSum.genruntimeconfig.cache
 D:\MyCode\Data Structure\Array\TwoSum\obj\Debug\net6.0\ref\TwoSum.dll
+D:\MyCode\Data-Structures\Array\TwoSum\bin\Debug\net6.0\TwoSum.exe
+D:\MyCode\Data-Structures\Array\TwoSum\bin\Debug\net6.0\TwoSum.deps.json
+D:\MyCode\Data-Structures\Array\TwoSum\bin\Debug\net6.0\TwoSum.runtimeconfig.json
+D:\MyCode\Data-Structures\Array\TwoSum\bin\Debug\net6.0\TwoSum.dll
+D:\MyCode\Data-Structures\Array\TwoSum\bin\Debug\net6.0\TwoSum.pdb
+D:\MyCode\Data-Structures\Array\TwoSum\obj\Debug\net6.0\TwoSum.csproj.AssemblyReference.cache
+D:\MyCode\Data-Structures\Array\TwoSum\obj\Debug\net6.0\TwoSum.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyCode\Data-Structures\Array\TwoSum\obj\Debug\net6.0\TwoSum.AssemblyInfoInputs.cache
+D:\MyCode\Data-Structures\Array\TwoSum\obj\Debug\net6.0\TwoSum.AssemblyInfo.cs
+D:\MyCode\Data-Structures\Array\TwoSum\obj\Debug\net6.0\TwoSum.csproj.CoreCompileInputs.cache
+D:\MyCode\Data-Structures\Array\TwoSum\obj\Debug\net6.0\TwoSum.dll
+D:\MyCode\Data-Structures\Array\TwoSum\obj\Debug\net6.0\refint\TwoSum.dll
+D:\MyCode\Data-Structures\Array\TwoSum\obj\Debug\net6.0\TwoSum.pdb
+D:\MyCode\Data-Structures\Array\TwoSum\obj\Debug\net6.0\TwoSum.genruntimeconfig.cache
+D:\MyCode\Data-Structures\Array\TwoSum\obj\Debug\net6.0\ref\TwoSum.dll
