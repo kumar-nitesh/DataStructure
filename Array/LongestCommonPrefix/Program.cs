@@ -1,7 +1,12 @@
-﻿using System.Text;
+﻿using LongestCommonPrefix;
+using System.Text;
 
 string[] strs = new string[] { "flower", "flow", "flight" };
 Console.WriteLine(LongestCommonPrefix(strs));
+
+int[] arr = new int[] { 6, 2, 10, 49, 193, 1 };
+var result = BruteForce.Solution(arr);
+Console.WriteLine("[{0}]", string.Join(", ", result));
 
 static string LongestCommonPrefix(string[] strs)
 {
@@ -19,4 +24,16 @@ static string LongestCommonPrefix(string[] strs)
     }
 
     return strbuilder.ToString();
+}
+
+class A
+{
+    public int ab = 9;
+    public double b = 10;
+
+    public A(int num)
+    {
+        ab = num;
+        b = 2 * num;
+    }
 }

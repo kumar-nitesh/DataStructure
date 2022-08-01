@@ -52,7 +52,8 @@ namespace QuickSort
                 return;
 
             // rearrange the elements across pivot.
-            int pivot = Partition(array, start, end);
+            //int pivot = Partition(array, start, end);
+            int pivot = LomutoPartition(array, start, end);
 
             // recurse on sub array containing elements that are less than pivot.
             QuickSort(array, start, (pivot - 1));
@@ -61,7 +62,14 @@ namespace QuickSort
             QuickSort(array, (pivot + 1), end);
         }
 
-
+        /// <summary>
+        /// Hoare Partition
+        /// Pivot Element - First 
+        /// </summary>
+        /// <param name="array"></param>
+        /// <param name="start"></param>
+        /// <param name="end"></param>
+        /// <returns></returns>
         static int Partition(int[] array, int start, int end)
         {
             int pivot = array[start];
@@ -87,6 +95,31 @@ namespace QuickSort
 
                 return i;
             }
+        }
+
+        /// <summary>
+        /// Lomuto Partition
+        /// Pivot Element - Last 
+        /// </summary>
+        /// <param name="inputElements"></param>
+        /// <param name="low"></param>
+        /// <param name="high"></param>
+        private static int LomutoPartition(int[] inputElements, int low, int high)
+        {
+            int pivot = inputElements[high];
+            int i = low;
+            for (int j = low; j < high; j++)
+            {
+                if (inputElements[j] <= pivot)
+                {
+                    Swap(inputElements, i, j);
+                    i++;
+                }
+            }
+
+            Swap(inputElements, i, high);
+
+            return i;
         }
 
         private static void Swap(int[] nums, int i, int j)

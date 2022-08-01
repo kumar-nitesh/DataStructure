@@ -2,6 +2,8 @@
 {
     public static class BruteForce
     {
+        /// Time Complexity: O(n)
+        /// Space complexity: O(1)
         public static int[] Sort(int[] array)
         {
             int low = 0;
@@ -10,10 +12,17 @@
             for (int mid = 0; mid <= high; mid++)
             {
                 if (array[mid] == 0)
-                    Swap(array, low++, mid--);
+                {
+                    Swap(array, low, mid);
+                    low++;
+                }
 
                 if (array[mid] == 2)
-                    Swap(array, mid--, high--);
+                {
+                    Swap(array, mid, high);
+                    --high;
+                    --mid;
+                }
             }
 
             return array;

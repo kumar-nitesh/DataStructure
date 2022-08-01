@@ -2,6 +2,8 @@
 {
     public static class BruteForce
     {
+        /// Time Complexity: O(n)
+        /// Space complexity: O(1)
         public static string MinimumBribes(int[] queue)
         {
             int bribes = 0;

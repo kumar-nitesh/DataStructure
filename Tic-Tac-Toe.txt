@@ -1,0 +1,85 @@
+﻿Question 5 of 15
+Submitted
+0:00:00
++
+0:00:26
+Codewriting
+
+A regular game of tic-tac-toe is played on a 3-by-3 grid. The ACME board company is putting out a generalized version of tic-tac-toe that is played on an n-by-n board.
+
+In this variant, players take turns placing an X or an O on the board, and the game ends when one of the players wins or there are no spaces left to play. A player wins if they place a move that satisfies one of the following three conditions:
+
+They complete a row of n of their symbols;
+They complete a column of n of their symbols;
+They complete a diagonal of n of their symbols. There are only two diagonals on the board that are large enough to win.
+You have been asked by ACME to write a function that checks the results of the board. The board is represented by a n-by-n matrix of characters. The cell in row i and column j is represented by board[i][j], and can take the values "X" (if the X player has played there), "O" (if the O player has played there), or "." (if the cell is currently empty).
+
+Write a function solution(board) that takes a n-by-n matrix of strings, and returns the string representing the result of the board. The possible return values are:
+
+"X WIN": The X markers satisfy one of the win conditions.
+"O WIN": The O markers satisfy one of the win conditions.
+"ONGOING": Neither player has won yet, and there are still empty spaces on the board.
+"TIE": The game is over, and neither player has won.
+It's guaranteed that there is at most one winner.
+
+Example
+
+For board = ["XO", "X."], the output should be
+solution(board) = "X WIN".
+
+X	O
+X	
+For board = ["XOX", "OXO", ".X."], the output should be
+solution(board) = "ONGOING".
+
+X	O	X
+O	X	O
+X	
+Even though an "X" win is inevitable in this game, there is no current winner, and the game is still ongoing.
+
+Input/Output
+
+[execution time limit] 3 seconds (cs)
+
+[input] array.string board
+
+Representation of the gaming board. It's guaranteed that there is at most one winner.
+
+Guaranteed constraints:
+2 ≤ board.length = board[i].length ≤ 100,
+board[i][j] is in {"X","O","."}.
+
+[output] string
+
+Return the string representing the result of the board. The possible return values are:
+
+"X WIN": The X markers satisfy one of the win conditions.
+"O WIN": The O markers satisfy one of the win conditions.
+"ONGOING": Neither player has won yet, and there are still empty spaces on the board.
+"TIE": The game is over, and neither player has won.
+[C#] Syntax Tips
+
+// Prints help message to the console
+// Returns a string
+string helloWorld(string name) {
+    Console.Write("This prints to the console when you Run Tests");
+    return "Hello, " + name;
+}
+
+C#
+Mono v6.12.0.122
+1234
+string solution(string[] board) {
+
+}
+
+SUBMITTED
+TESTS
+CUSTOM TESTS
+RESULTS
+Compilation error.
+Your solution was submitted. Your overall score is hidden.
+Sample tests:
+0/7
+MORE
+Cannot edit in read-only editor

@@ -1,0 +1,62 @@
+﻿Question 2 of 15
+0:00:00
++
+0:00:00
+Recovery
+
+Implement the missing code, denoted by ellipses. You may not modify the pre-existing code.
+Monica needs to scan a collection of documents to look for phone numbers. She is looking at 10 digit phone numbers, which have three blocks. The first block contains 3 digits (the area code), the second block also contains 3 digits (the prefix), and the remaining 4 digits form their own block (the line number).
+
+The area codes may appear in parenthesis. The blocks may be separated by spaces or dashes ("-"), or not at all. For example, here are some sample phone numbers Monica has found:
+
+(555) 412-5122
+555-211-8110
+5551234567
+(230) 4122255
+(235)2223333
+Write a regex that counts the number of phone numbers in the document doc.
+
+Example
+
+For doc = "Alex:(486)-619-9812, Maria: 632 831 1993, Donald: 232-618-93200, John: 621) 198 1082", the output should be
+solution(doc) = 2.
+
+Donald's line number contains 5 digits instead of 4 and John's number has extra bracket between area code and prefix, so there are only 2 valid phone numbers.
+
+Input/Output
+
+[execution time limit] 4 seconds (js)
+
+[input] string doc
+
+A string that may contain phone numbers.
+
+Guaranteed constraints:
+1 ≤ doc.length ≤ 200.
+
+[output] integer
+
+The number of valid phone numbers in the document doc.
+
+[JavaScript] Syntax Tips
+
+// Prints help message to the console
+// Returns a string
+function helloWorld(name) {
+    console.log("This prints to the console when you Run Tests");
+    return "Hello, " + name;
+}
+
+JavaScript
+Node.js v16.13.0
+12345
+function solution(doc) {
+  var matches = doc.match("^((\\(\\d{3}\\))|\\d{3})[- ]?\\d{3}[- ]?\\d{4}$");
+  return matches === null ? 0 : matches.length;
+}
+
+TESTS
+CUSTOM TESTS
+MORE
+0
+Cannot edit in read-only editor

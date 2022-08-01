@@ -1,0 +1,81 @@
+﻿Question 3 of 15
+0:00:00
++
+0:00:06
+Codewriting
+
+Note: Try to solve this task in O(n log n) time, where n is a length of the input, since this is what you'll be asked to do during an interview.
+
+A streaming algorithm, also called an online algorithm, is one in which the input dataStream arrives one piece at a time. We are going to emulate a streaming algorithm, and calculate the median of all the numbers that have been seen so far.
+
+The dataStream is an array of integers, ordered by the arrival time of each piece. The output will be an array of integers, output, such that output[i] is the median of the entries up to and including dataStream[i]. When finding the median of an even number of integers, choose the smaller of the two "middle" values.
+
+Example
+
+For dataStream = [1, 2, 3], the output should be
+solution(dataStream) = [1, 1, 2].
+
+When we have only seen [1], the median is 1.
+When we have seen [1, 2] then the median can be either 1 or 2 (or any number in between). Our rule to break ties is to pick the smallest number, in this case 1.
+When we have seen [1, 2, 3], the median is 2.
+For dataStream = [6, 2, 10, 49, 193, 1], the output should be
+solution(dataStream) = [6, 2, 6, 6, 10, 6].
+
+When we have only seen [6], the median is 6.
+When we have seen [6, 2] then the lowest median is 2.
+When we have seen [6, 2, 10], the median is 6.
+When we have seen [6, 2, 10, 49], the lowest median is 6.
+When we have seen [6, 2, 10, 49, 193], the median is 10.
+When we have seen [6, 2, 10, 49, 193, 1], the lowest median is 6.
+Input/Output
+
+[execution time limit] 3 seconds (cs)
+
+[input] array.integer dataStream
+
+Stream of some numbers.
+
+Guaranteed constraints:
+1 ≤ dataStream.length ≤ 50000,
+-25000 ≤ dataStream[i] ≤ 25000.
+
+[output] array.integer
+
+The ith> element is the median of the entries up to and including dataStream[i]. When finding the median of an even number of integers, choose the smaller of the two "middle" values.
+
+[C#] Syntax Tips
+
+// Prints help message to the console
+// Returns a string
+string helloWorld(string name) {
+    Console.Write("This prints to the console when you Run Tests");
+    return "Hello, " + name;
+}
+
+C#
+Mono v6.12.0.122
+1234567891011121314151617181920
+int[] solution(int[] dataStream) {
+    int median = 0;
+    int sum = 0;
+    int dataStreamLength = dataStream.Length;
+    
+    for (int i = 0; i < dataStreamLength; i++)
+    {
+        sum += dataStream[i];
+        median = GetMedian(sum, i);
+        dataStream[i] = (int)median;
+    }
+
+    return dataStream;
+}
+
+ static int GetMedian(int sum, int i)
+{
+    return sum / ++i;
+}
+
+TESTS
+CUSTOM TESTS
+MORE
+Cannot edit in read-only editor
