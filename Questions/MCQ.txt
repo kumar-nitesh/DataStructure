@@ -1,0 +1,7 @@
+Multithreading Vs Multiprocessing
+GraphQL Vs REST API
+Probability = 0.34
+HTTP 2 Features
+How many test cases needed? two statement one if condition
+Venn Diagram JOINS 
+Change of Class - Inheritance : Cohesion, Coupling or Composition

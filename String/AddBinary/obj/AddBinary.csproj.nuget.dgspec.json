@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyCode\\Data Structure\\String\\AddBinary\\AddBinary.csproj": {}
+    "D:\\MyCode\\Data-Structures\\String\\AddBinary\\AddBinary.csproj": {}
   },
   "projects": {
-    "D:\\MyCode\\Data Structure\\String\\AddBinary\\AddBinary.csproj": {
+    "D:\\MyCode\\Data-Structures\\String\\AddBinary\\AddBinary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyCode\\Data Structure\\String\\AddBinary\\AddBinary.csproj",
+        "projectUniqueName": "D:\\MyCode\\Data-Structures\\String\\AddBinary\\AddBinary.csproj",
         "projectName": "AddBinary",
-        "projectPath": "D:\\MyCode\\Data Structure\\String\\AddBinary\\AddBinary.csproj",
+        "projectPath": "D:\\MyCode\\Data-Structures\\String\\AddBinary\\AddBinary.csproj",
         "packagesPath": "C:\\Users\\nikum\\.nuget\\packages\\",
-        "outputPath": "D:\\MyCode\\Data Structure\\String\\AddBinary\\obj\\",
+        "outputPath": "D:\\MyCode\\Data-Structures\\String\\AddBinary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nikum\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

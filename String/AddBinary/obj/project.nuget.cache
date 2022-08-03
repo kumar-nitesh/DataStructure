@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bxePZz8Lxd6RARYfvJyKvI83SQrpKBSDhdKEaJHUDvQOaMOzJoNQJYwN572BpBkvCgZctzdiHJWstZFRx+iWzA==",
+  "dgSpecHash": "t+GG8v2wBgtxyFDaZW2UqO6zcaWk9RGAFAbqh4ZVVTVM2HY2AHTjBynL3sodRKWIQQEOaH0aTrl99KwnxJuAAw==",
   "success": true,
-  "projectFilePath": "D:\\MyCode\\Data Structure\\String\\AddBinary\\AddBinary.csproj",
+  "projectFilePath": "D:\\MyCode\\Data-Structures\\String\\AddBinary\\AddBinary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

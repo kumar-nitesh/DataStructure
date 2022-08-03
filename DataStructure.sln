@@ -63,8 +63,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "LinkedList\LinkedList\LinkedList.csproj", "{91198944-B4E5-4CEC-A730-A9CEE0AB4729}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddBinary", "C:\Users\nikum\source\repos\DataStructure\String\AddBinary\AddBinary.csproj", "{982230DA-DB37-44B8-9608-C7F7E8680CCE}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DutchNationFlag", "Algorithm\DutchNationFlag\DutchNationFlag.csproj", "{854FD478-737E-4699-AD85-203E7CC12596}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainsDuplicate", "Array\ContainsDuplicate\ContainsDuplicate.csproj", "{3841EBAE-3A25-48AE-8F15-611C7DA12136}"
@@ -87,9 +85,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeWayPartition", "Partit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Questions", "Questions", "{3507B5F4-2119-4975-821B-861E9316C59F}"
 	ProjectSection(SolutionItems) = preProject
-		PhoneNumberRegex.txt = PhoneNumberRegex.txt
-		Tic-Tac-Toe.txt = Tic-Tac-Toe.txt
+		Questions\MCQ.txt = Questions\MCQ.txt
+		Questions\Phone-Number-Regex.txt = Questions\Phone-Number-Regex.txt
+		Questions\Rectangular-Matrix.txt = Questions\Rectangular-Matrix.txt
+		Questions\Stream-Algorithm.txt = Questions\Stream-Algorithm.txt
+		Questions\Tic-Tac-Toe.txt = Questions\Tic-Tac-Toe.txt
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddBinary", "String\AddBinary\AddBinary.csproj", "{65BD93A6-63C3-47E1-BE23-D9CA8DCB7B63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -185,10 +188,6 @@ Global
 		{91198944-B4E5-4CEC-A730-A9CEE0AB4729}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91198944-B4E5-4CEC-A730-A9CEE0AB4729}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91198944-B4E5-4CEC-A730-A9CEE0AB4729}.Release|Any CPU.Build.0 = Release|Any CPU
-		{982230DA-DB37-44B8-9608-C7F7E8680CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{982230DA-DB37-44B8-9608-C7F7E8680CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{982230DA-DB37-44B8-9608-C7F7E8680CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{982230DA-DB37-44B8-9608-C7F7E8680CCE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{854FD478-737E-4699-AD85-203E7CC12596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{854FD478-737E-4699-AD85-203E7CC12596}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{854FD478-737E-4699-AD85-203E7CC12596}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -229,6 +228,10 @@ Global
 		{E4144B22-E800-4E00-8E95-D8E3A286E46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4144B22-E800-4E00-8E95-D8E3A286E46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4144B22-E800-4E00-8E95-D8E3A286E46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65BD93A6-63C3-47E1-BE23-D9CA8DCB7B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BD93A6-63C3-47E1-BE23-D9CA8DCB7B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BD93A6-63C3-47E1-BE23-D9CA8DCB7B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BD93A6-63C3-47E1-BE23-D9CA8DCB7B63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -256,7 +259,6 @@ Global
 		{00EA2DBE-2A76-46DF-8298-7BDC4C493203} = {F3FC3892-AF6D-44B4-95D0-B03C146BCE57}
 		{4D275C88-2525-4CFC-803D-477F81F0C166} = {F3FC3892-AF6D-44B4-95D0-B03C146BCE57}
 		{91198944-B4E5-4CEC-A730-A9CEE0AB4729} = {C4EAB8EF-126E-40DA-94F5-62814A8FC7F9}
-		{982230DA-DB37-44B8-9608-C7F7E8680CCE} = {867503A3-C9A1-4D30-939F-908D0F1E326A}
 		{854FD478-737E-4699-AD85-203E7CC12596} = {A450FA77-27BD-4949-B9A7-12E1D3E1B6BE}
 		{3841EBAE-3A25-48AE-8F15-611C7DA12136} = {8E1BA740-E0FB-4314-A851-3BF1FB0474EF}
 		{47502110-6A86-43DF-8741-9ACDB0206118} = {8E1BA740-E0FB-4314-A851-3BF1FB0474EF}
@@ -267,6 +269,7 @@ Global
 		{282A3AE9-2D3D-4A73-8C23-A0C71F66213A} = {8E1BA740-E0FB-4314-A851-3BF1FB0474EF}
 		{35CB9F66-610A-4417-9436-DE16BCAE5D24} = {8E1BA740-E0FB-4314-A851-3BF1FB0474EF}
 		{E4144B22-E800-4E00-8E95-D8E3A286E46B} = {7FB15587-9E3E-4B03-87E0-3DEF13BEF954}
+		{65BD93A6-63C3-47E1-BE23-D9CA8DCB7B63} = {867503A3-C9A1-4D30-939F-908D0F1E326A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B887228F-BFCD-4BA3-9D9D-48117AA448F1}

@@ -1,10 +1,4 @@
-﻿Question 2 of 15
-0:00:00
-+
-0:00:00
-Recovery
-
-Implement the missing code, denoted by ellipses. You may not modify the pre-existing code.
+﻿Implement the missing code, denoted by ellipses. You may not modify the pre-existing code.
 Monica needs to scan a collection of documents to look for phone numbers. She is looking at 10 digit phone numbers, which have three blocks. The first block contains 3 digits (the area code), the second block also contains 3 digits (the prefix), and the remaining 4 digits form their own block (the line number).
 
 The area codes may appear in parenthesis. The blocks may be separated by spaces or dashes ("-"), or not at all. For example, here are some sample phone numbers Monica has found:
@@ -54,9 +48,3 @@ function solution(doc) {
   var matches = doc.match("^((\\(\\d{3}\\))|\\d{3})[- ]?\\d{3}[- ]?\\d{4}$");
   return matches === null ? 0 : matches.length;
 }
-
-TESTS
-CUSTOM TESTS
-MORE
-0
-Cannot edit in read-only editor
