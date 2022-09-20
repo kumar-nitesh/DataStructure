@@ -86,13 +86,21 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Questions", "Questions", "{3507B5F4-2119-4975-821B-861E9316C59F}"
 	ProjectSection(SolutionItems) = preProject
 		Questions\MCQ.txt = Questions\MCQ.txt
+		Net.txt = Net.txt
 		Questions\Phone-Number-Regex.txt = Questions\Phone-Number-Regex.txt
 		Questions\Rectangular-Matrix.txt = Questions\Rectangular-Matrix.txt
+		StatisticsReporting.txt = StatisticsReporting.txt
 		Questions\Stream-Algorithm.txt = Questions\Stream-Algorithm.txt
 		Questions\Tic-Tac-Toe.txt = Questions\Tic-Tac-Toe.txt
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddBinary", "String\AddBinary\AddBinary.csproj", "{65BD93A6-63C3-47E1-BE23-D9CA8DCB7B63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamingAlgorithm", "Algorithm\StreamingAlgorithm\StreamingAlgorithm.csproj", "{EE9CC0B8-2731-4E98-9590-8CD8774DD325}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinaryTree", "BinaryTree", "{2223C7D4-37EC-4111-BD8C-3DAB4CA02C10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "BinaryTree\BinaryTree\BinaryTree.csproj", "{CA2CFB49-B1DE-4266-A853-F4C2A51BCF47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -232,6 +240,14 @@ Global
 		{65BD93A6-63C3-47E1-BE23-D9CA8DCB7B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65BD93A6-63C3-47E1-BE23-D9CA8DCB7B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65BD93A6-63C3-47E1-BE23-D9CA8DCB7B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9CC0B8-2731-4E98-9590-8CD8774DD325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9CC0B8-2731-4E98-9590-8CD8774DD325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9CC0B8-2731-4E98-9590-8CD8774DD325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9CC0B8-2731-4E98-9590-8CD8774DD325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2CFB49-B1DE-4266-A853-F4C2A51BCF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2CFB49-B1DE-4266-A853-F4C2A51BCF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2CFB49-B1DE-4266-A853-F4C2A51BCF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2CFB49-B1DE-4266-A853-F4C2A51BCF47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -270,6 +286,8 @@ Global
 		{35CB9F66-610A-4417-9436-DE16BCAE5D24} = {8E1BA740-E0FB-4314-A851-3BF1FB0474EF}
 		{E4144B22-E800-4E00-8E95-D8E3A286E46B} = {7FB15587-9E3E-4B03-87E0-3DEF13BEF954}
 		{65BD93A6-63C3-47E1-BE23-D9CA8DCB7B63} = {867503A3-C9A1-4D30-939F-908D0F1E326A}
+		{EE9CC0B8-2731-4E98-9590-8CD8774DD325} = {A450FA77-27BD-4949-B9A7-12E1D3E1B6BE}
+		{CA2CFB49-B1DE-4266-A853-F4C2A51BCF47} = {2223C7D4-37EC-4111-BD8C-3DAB4CA02C10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B887228F-BFCD-4BA3-9D9D-48117AA448F1}
