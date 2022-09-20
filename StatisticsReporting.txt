@@ -1,0 +1,13 @@
+Array is [2,2,2,4,4,4,4,1,2,2]
+
+Count of Consecutive 2s = 3 // This is not Alpha since count of 2s is different from 2.
+Count of Consecutive 4s = 4 // This is Alpha
+Count of Consecutive 1s = 1 // This is Alpha
+Count of Consecutive 2s = 2 // This is Alpha
+
+4 is Beta, since it is starting from index 4.
+
+Count of Alpha = 3 
+Count of Beta = 1
+
+Absolute between the two = |3-1| = 2 (Answer)
