@@ -4,21 +4,18 @@
     {
         public Node Reverse(Node head)
         {
-            Node nextElement = null;
-            Node prev = null;
             Node current = head;
+            Node prev = null;
 
             while (current != null)
             {
-                nextElement = current.Next;
+                Node temp = current.Next;
                 current.Next = prev;
                 prev = current;
-                current = nextElement;
+                current = temp;
             }
 
-            head = prev;
-
-            return head;
+            return prev;
         }
     }
 }

@@ -22,9 +22,6 @@
             return sortedList;
         }
 
-        /// <summary>
-        /// Tortoise And Hare Approach
-        /// </summary>
         public Node FindMiddle(Node head)
         {
             Node slow = head;
@@ -35,6 +32,45 @@
                 fast = fast.Next.Next;
                 slow = slow.Next;
             }
+            return slow;
+        }
+
+        public Node FindMiddleV2(Node head)
+        {
+            Node slow = head;
+            Node fast = head.Next;
+
+            int i = 0;
+
+            while (fast != null && fast.Next != null)
+            {
+                i++;
+                fast = fast.Next.Next;
+                slow = slow.Next;
+            }
+
+            if (fast != null)
+            {
+                return slow.Next;
+            }
+
+            return slow;
+        }
+
+        /// <summary>
+        /// Tortoise And Hare Approach
+        /// </summary>
+        public Node FindMiddleAlgorithm(Node head)
+        {
+            Node slow = head;
+            Node fast = head;
+
+            while (fast != null && fast.Next != null)
+            {
+                fast = fast.Next.Next;
+                slow = slow.Next;
+            }
+
             return slow;
         }
     }
