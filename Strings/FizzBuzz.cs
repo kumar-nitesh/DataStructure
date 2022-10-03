@@ -1,13 +1,13 @@
-﻿namespace FizzBuzz
+﻿namespace Strings
 {
-    public static class BruteForce
+    public class FizzBuzz : IExecute
     {
         /// <summary>
         /// Fizz Buzz
         /// </summary>
         /// Time Complexity: O(n)
         /// Space complexity: O(n)
-        public static IList<string> FizzBuzz(int n)
+        public static IList<string> GetStrings(int n)
         {
             List<string> list = new List<string>();
             for (int i = 1; i <= n; i++)
@@ -31,6 +31,16 @@
             }
 
             return list;
+        }
+
+        public void Execute()
+        {
+            Console.WriteLine("###LeetCode###");
+            Console.WriteLine("412. Fizz Buzz");
+            Console.WriteLine("Difficulty Level - EASY");
+
+            Console.WriteLine("[{0}]", string.Join(", ", GetStrings(3)));
+            Console.WriteLine("[{0}]", string.Join(", ", GetStrings(5)));
         }
     }
 }

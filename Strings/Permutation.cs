@@ -1,13 +1,13 @@
-﻿namespace Permutation
+﻿namespace Strings
 {
-    public static class BruteForce
+    public class Permutation : IExecute
     {
         /// <summary>
         /// Backtracking - Print all Permutations.
         /// </summary>
         /// Time Complexity: O(n * n!)
         /// Space complexity: O(startingIndex - endingIndex)
-        public static void Permutations(string ques, string ans)
+        public static void Print(string ques, string ans)
         {
             if (ques.Length == 0)
             {
@@ -23,9 +23,21 @@
                 string rightPartQues = ques.Substring(i + 1);
                 string restOfQues = leftPartQues + rightPartQues;
 
-                Permutations(restOfQues, ans + currentChar);
+                Print(restOfQues, ans + currentChar);
             }
         }
 
+        public void Execute()
+        {
+            Console.WriteLine("########LeetCode##########");
+            Console.WriteLine("567. Permutation in String");
+            Console.WriteLine("Difficulty Level - MEDIUM");
+
+            Console.WriteLine("##########################################");
+            Print("abcd", String.Empty);
+            //Console.WriteLine(CheckInclusion("ab", "eidboaoo"));
+
+            Console.WriteLine("##########################################");
+        }
     }
 }

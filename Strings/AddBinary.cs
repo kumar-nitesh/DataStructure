@@ -1,11 +1,11 @@
-﻿namespace AddBinary
+﻿namespace Strings
 {
-    public static class BruteForce
+    public class AddBinary : IExecute
     {
         /// Time Complexity: O(max(L1, L2))
         /// Space Complexity: O(max(L1, L2)) 
         /// where L1 and L2 are the lengths of strings a and b respectively.
-        public static string AddBinary(string a, string b)
+        public static string Add(string a, string b)
         {
             string result = string.Empty;
             int i = a.Length - 1;
@@ -35,6 +35,15 @@
             }
 
             return result;
+        }
+
+        public void Execute()
+        {
+            var result1 = Add("11", "1");
+            Console.WriteLine("[{0}]", string.Join(", ", result1));
+
+            var result2 = Add("1010", "1011");
+            Console.WriteLine("[{0}]", string.Join(", ", result2));
         }
     }
 }
