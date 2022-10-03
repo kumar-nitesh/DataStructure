@@ -1,5 +1,7 @@
 ﻿using LinkedList;
 
+//SampleList.Operations();
+//SampleList.Rotate();
 SampleList.Reverse();
 //SampleList.DetectLoop();
 //SampleList.IntersectionPoint();

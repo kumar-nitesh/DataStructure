@@ -11,7 +11,7 @@
         /// </summary>
         /// Time complexity: O(n)
         /// Space complexity: O(1)
-        public bool DetectLoop(Node head)
+        public bool RemoveLoop(Node head)
         {
             if (head == null)
             {

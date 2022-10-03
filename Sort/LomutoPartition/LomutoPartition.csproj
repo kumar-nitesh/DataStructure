@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{21415455-9258-45D0-8833-C3C6FD4580B5}</ProjectGuid>
+    <ProjectGuid>{197B100A-8E3E-45DC-A3CE-D8E5AC5CA45C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LomutoPartition</RootNamespace>

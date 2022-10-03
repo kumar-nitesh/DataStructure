@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RotateArray
+﻿namespace RotateArray
 {
     public static class Optimized
     {
@@ -16,7 +10,6 @@ namespace RotateArray
         /// <returns>integer array of indices</returns>
         public static int[] Rotate(int[] nums, int k)
         {
-
             return nums;
         }
 

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AD78D908-13CD-49D9-B854-B46BC318134B}</ProjectGuid>
+    <ProjectGuid>{281A74DD-1A06-49C5-86B8-BCC8517F9608}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HoarePartition</RootNamespace>
