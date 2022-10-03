@@ -13,7 +13,8 @@ namespace MinPlatform
         /// Geeks for Geeks - Must Do
         /// Array - Medium
         /// Problem - https://practice.geeksforgeeks.org/problems/minimum-platforms/0
-        /// Greedy Algorithm
+        /// Solution - https://www.youtube.com/watch?v=Ls_AYoz1IX0
+        /// Greedy Algorithm (Find Overlap)
         /// 1. Sort Arrivals and Deparutes Timing
         /// 2. Iterate and check if Arrival then increment the counter 
         /// 3. If Departure then decrement the counter
