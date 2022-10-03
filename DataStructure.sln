@@ -100,6 +100,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeWayPartition", "Sort\3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LomutoPartition", "Sort\LomutoPartition\LomutoPartition.csproj", "{197B100A-8E3E-45DC-A3CE-D8E5AC5CA45C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinPlatform", "Array\MinPlatform\MinPlatform.csproj", "{938D604A-B1BB-4D6C-A53C-D8A990FB0D94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -246,6 +248,10 @@ Global
 		{197B100A-8E3E-45DC-A3CE-D8E5AC5CA45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{197B100A-8E3E-45DC-A3CE-D8E5AC5CA45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{197B100A-8E3E-45DC-A3CE-D8E5AC5CA45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938D604A-B1BB-4D6C-A53C-D8A990FB0D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938D604A-B1BB-4D6C-A53C-D8A990FB0D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938D604A-B1BB-4D6C-A53C-D8A990FB0D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938D604A-B1BB-4D6C-A53C-D8A990FB0D94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -286,6 +292,7 @@ Global
 		{281A74DD-1A06-49C5-86B8-BCC8517F9608} = {7F351502-60E9-4F11-B13A-44C04489F2A3}
 		{21C546F9-1E92-4E4F-9621-9070F1C3D92F} = {7F351502-60E9-4F11-B13A-44C04489F2A3}
 		{197B100A-8E3E-45DC-A3CE-D8E5AC5CA45C} = {7F351502-60E9-4F11-B13A-44C04489F2A3}
+		{938D604A-B1BB-4D6C-A53C-D8A990FB0D94} = {8E1BA740-E0FB-4314-A851-3BF1FB0474EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B887228F-BFCD-4BA3-9D9D-48117AA448F1}
