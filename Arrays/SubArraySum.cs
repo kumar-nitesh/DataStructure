@@ -1,6 +1,6 @@
 ﻿namespace Arrays
 {
-    public static class SubArraySum
+    public class SubArraySum : IExecute
     {
         /// <summary>
         /// Time Complexity: O(n^2) in worst case. 
@@ -66,6 +66,22 @@
                 }
 
             }
+        }
+
+        public void Execute()
+        {
+            Console.WriteLine("***************************Brute Force***************************");
+
+            int[] sample1Sum = new int[] { 1, 2, 3, 7, 5 };
+            Sum(sample1Sum, 12);
+
+            int[] sample2Sum = new int[] { 15, 2, 4, 8, 9, 5, 10, 23 };
+            Sum(sample2Sum, 23);
+
+            Console.WriteLine("***************************Optimized Solution***************************");
+
+            SumOptimized(sample1Sum, 12);
+            SumOptimized(sample2Sum, 23);
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Arrays
 {
-    public static class FindAllDuplicates
+    public class FindAllDuplicates : IExecute
     {
         /// <summary>
         /// Greedy Approach - Set the nums[n] to its negative value.  
@@ -53,6 +53,38 @@
             }
 
             return result;
+        }
+
+        public void Execute()
+        {
+            Console.WriteLine("##############LeetCode##############");
+            Console.WriteLine("442. Find All Duplicates in an Array");
+            Console.WriteLine("Difficulty Level - MEDIUM");
+
+            int[] t1 = new int[] { 4, 3, 2, 7, 8, 2, 3, 1 };
+            int[] t2 = new int[] { 1, 1, 2 };
+            int[] t3 = new int[] { 2 };
+            int[] t4 = new int[] { 4, 3, 2, 7, 8, 2, 3, 1 };
+            int[] t5 = new int[] { 1, 1, 2 };
+            int[] t6 = new int[] { 2, 2 };
+
+            var r1 = FindAllDuplicates.Find(t1);
+            Console.WriteLine("[{0}]", string.Join(", ", r1));
+
+            var r2 = FindAllDuplicates.Find(t2);
+            Console.WriteLine("[{0}]", string.Join(", ", r2));
+
+            var r3 = FindAllDuplicates.Find(t3);
+            Console.WriteLine("[{0}]", string.Join(", ", r3));
+
+            var r4 = FindAllDuplicates.Optimized(t4);
+            Console.WriteLine("[{0}]", string.Join(", ", r4));
+
+            var r5 = FindAllDuplicates.Optimized(t5);
+            Console.WriteLine("[{0}]", string.Join(", ", r5));
+
+            var r6 = FindAllDuplicates.Optimized(t6);
+            Console.WriteLine("[{0}]", string.Join(", ", r6));
         }
     }
 }

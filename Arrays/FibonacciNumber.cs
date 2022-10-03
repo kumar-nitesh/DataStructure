@@ -1,6 +1,6 @@
 ﻿namespace Arrays
 {
-    public static class FibonacciNumber
+    public class FibonacciNumber : IExecute
     {
         /// <summary>
         /// Recursion
@@ -69,6 +69,25 @@
             }
 
             return fibN;
+        }
+
+        public void Execute()
+        {
+            Console.WriteLine("#######LeetCode######");
+            Console.WriteLine("509. Fibonacci Number");
+            Console.WriteLine("Difficulty Level - EASY");
+
+            Console.WriteLine(FibonacciNumber.Recursion(10));
+            Console.WriteLine(FibonacciNumber.Memoized(10, new int[11]));
+            Console.WriteLine(FibonacciNumber.Optimized(10));
+
+            Console.WriteLine(FibonacciNumber.Recursion(5));
+            Console.WriteLine(FibonacciNumber.Memoized(5, new int[6]));
+            Console.WriteLine(FibonacciNumber.Optimized(5));
+
+            Console.WriteLine(FibonacciNumber.Recursion(6));
+            Console.WriteLine(FibonacciNumber.Memoized(6, new int[7]));
+            Console.WriteLine(FibonacciNumber.Optimized(6));
         }
     }
 }

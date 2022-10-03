@@ -1,6 +1,6 @@
 ﻿namespace Arrays
 {
-    public static class NewYearChaos
+    public class NewYearChaos : IExecute
     {
         /// Time Complexity: O(n)
         /// Space complexity: O(1)
@@ -28,6 +28,15 @@
             }
 
             return result;
+        }
+
+        public void Execute()
+        {
+            int[] queue1 = new int[] { 2, 1, 5, 3, 4 };
+            int[] queue2 = new int[] { 2, 5, 1, 3, 4 };
+
+            Console.WriteLine(MinimumBribes(queue1));
+            Console.WriteLine(MinimumBribes(queue2));
         }
     }
 }

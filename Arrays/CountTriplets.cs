@@ -1,6 +1,6 @@
 ﻿namespace Arrays
 {
-    public static class CountTriplets
+    public class CountTriplets : IExecute
     {
         /// <summary>
         /// Brute force: Time Complexity: O(n^2), Space complexity: O(1)
@@ -22,6 +22,12 @@
             }
 
             return Array.Empty<int>();
+        }
+
+        public void Execute()
+        {
+            int[] test = new int[] { 3, 2, 4 };
+            Console.WriteLine("[{0}]", string.Join(", ", Count(test, 6)));
         }
     }
 }

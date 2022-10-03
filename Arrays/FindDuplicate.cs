@@ -1,6 +1,6 @@
 ﻿namespace Arrays
 {
-    public static class FindDuplicate
+    public class FindDuplicate : IExecute
     {
         /// <summary>
         /// Greedy Approach - Set the nums[n] to its negative value.  
@@ -55,6 +55,23 @@
             }
 
             return fast;
+        }
+
+        public void Execute()
+        {
+            Console.WriteLine("###########LeetCode###########");
+            Console.WriteLine("287. Find the Duplicate Number");
+            Console.WriteLine("Difficulty Level - MEDIUM");
+
+            int[] test1DN = new int[] { 1, 3, 4, 2, 2 };
+            int[] test2DN = new int[] { 1, 1, 2 };
+            int[] test3DN = new int[] { 1, 1 };
+            int[] test4DN = new int[] { 3, 1, 3, 4, 2 };
+
+            Console.WriteLine("[{0}]", string.Join(", ", Find(test1DN)));
+            Console.WriteLine("[{0}]", string.Join(", ", Find(test2DN)));
+            Console.WriteLine("[{0}]", string.Join(", ", Find(test3DN)));
+            Console.WriteLine("[{0}]", string.Join(", ", Find(test4DN)));
         }
     }
 }

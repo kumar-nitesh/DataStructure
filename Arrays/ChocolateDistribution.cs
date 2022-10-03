@@ -1,6 +1,6 @@
 ﻿namespace Arrays
 {
-    public class ChocolateDistribution
+    public class ChocolateDistribution : IExecute
     {
         /// <summary>
         /// Geeks for Geeks - Must Do
@@ -13,7 +13,7 @@
         /// Time Complexity: O(nlogn)
         /// Space complexity: O(1)
         /// </summary>
-        public static int FindMinDiff(int[] choclist, int n, int m)
+        public int FindMinDiff(int[] choclist, int n, int m)
         {
             Array.Sort(choclist);
             int minDiff = int.MaxValue;
@@ -33,6 +33,15 @@
             }
 
             return minDiff;
+        }
+
+        public void Execute()
+        {
+            int[] choclist = new int[] { 3, 4, 1, 9, 56, 7, 9, 12 };
+            Console.WriteLine(FindMinDiff(choclist, 8, 5));
+
+            int[] choclist1 = new int[] { 17, 83, 59, 25, 38, 63, 25, 1, 37 };
+            Console.WriteLine(FindMinDiff(choclist1, 9, 9));
         }
     }
 }

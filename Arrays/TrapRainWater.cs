@@ -1,6 +1,6 @@
 ﻿namespace Arrays
 {
-    public class TrapRainWater
+    public class TrapRainWater : IExecute
     {
         /// <summary>
         /// Geeks for Geeks - Must Do
@@ -72,6 +72,12 @@
             }
             // Return the sum we've been adding to.
             return totalWater;
+        }
+
+        public void Execute()
+        {
+            int[] height = new int[] { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
+            Console.WriteLine(TrapWater(height));
         }
     }
 }

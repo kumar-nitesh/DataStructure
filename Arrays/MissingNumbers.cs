@@ -1,6 +1,6 @@
 ﻿namespace Arrays
 {
-    public static class MissingNumbers
+    public class MissingNumbers : IExecute
     {
         /// <summary>
         /// Using the Formula n(n+1)/2.....[1...n].        
@@ -18,6 +18,17 @@
             }
 
             return total;
+        }
+
+        public void Execute()
+        {
+            int[] test1 = new int[] { 3, 0, 1 };
+            int[] test2 = new int[] { 0, 1 };
+            int[] test3 = new int[] { 9, 6, 4, 2, 3, 5, 7, 0, 1 };
+
+            Console.WriteLine("[{0}]", string.Join(", ", MissingNumber(test1)));
+            Console.WriteLine("[{0}]", string.Join(", ", MissingNumber(test2)));
+            Console.WriteLine("[{0}]", string.Join(", ", MissingNumber(test3)));
         }
     }
 }

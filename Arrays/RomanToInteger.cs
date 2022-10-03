@@ -1,6 +1,6 @@
 ﻿namespace Arrays
 {
-    public static class RomanToInteger
+    public class RomanToInteger : IExecute
     {
         public static int RomanToInt(string s)
         {
@@ -31,6 +31,11 @@
                 last = current;
             }
             return sum;
+        }
+
+        public void Execute()
+        {
+            Console.WriteLine(RomanToInt("MCMXCIV"));
         }
     }
 }

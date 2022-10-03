@@ -2,7 +2,7 @@
 
 namespace Arrays
 {
-    public static class LongestCommonPrefix
+    public class LongestCommonPrefix : IExecute
     {
         public static int[] Solution(int[] dataStream)
         {
@@ -41,6 +41,14 @@ namespace Arrays
             return strbuilder.ToString();
         }
 
+        public void Execute()
+        {
+            string[] strs = new string[] { "flower", "flow", "flight" };
+            Console.WriteLine(Prefix(strs));
+
+            int[] arrPrefix = new int[] { 6, 2, 10, 49, 193, 1 };
+            Console.WriteLine("[{0}]", string.Join(", ", Solution(arrPrefix)));
+        }
     }
 
     class A

@@ -1,6 +1,6 @@
 ﻿namespace Arrays
 {
-    public static class MaximumProfit
+    public class MaximumProfit : IExecute
     {
         ///  Time: O(n), Space: O(1)
         public static int MaxProfit(int[] prices)
@@ -25,6 +25,15 @@
             }
 
             return profitOverall;
+        }
+
+        public void Execute()
+        {
+            int[] sample1 = new int[] { 7, 1, 5, 3, 6, 4 };
+            Console.WriteLine("[{0}]", string.Join(", ", MaxProfit(sample1)));
+
+            int[] sample2 = new int[] { 7, 6, 4, 3, 1 };
+            Console.WriteLine("[{0}]", string.Join(", ", MaxProfit(sample2)));
         }
     }
 }

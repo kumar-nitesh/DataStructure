@@ -1,6 +1,6 @@
 ﻿namespace Arrays
 {
-    public static class TwoSum
+    public class TwoSum : IExecute
     {
         /// <summary>
         /// Brute force: Time Complexity: O(n^2), Space complexity: O(1)
@@ -47,6 +47,13 @@
             }
 
             return Array.Empty<int>();
+        }
+
+        public void Execute()
+        {
+            int[] testSum = new int[] { 3, 2, 4 };
+            Console.WriteLine("[{0}]", string.Join(", ", Sum(testSum, 6)));
+            Console.WriteLine("[{0}]", string.Join(", ", Optimized(testSum, 6)));
         }
     }
 }
