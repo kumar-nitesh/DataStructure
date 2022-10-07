@@ -1,6 +1,8 @@
-﻿namespace ThreeWayPartition
+﻿using Algorithms;
+
+namespace ThreeWayPartition
 {
-    public static class BruteForce
+    public class ThreeWayPartition : IExecute
     {
         /// Time Complexity: O(n)
         /// Space complexity: O(1)
@@ -32,6 +34,18 @@
             int temp = array[i];
             array[i] = array[j];
             array[j] = temp;
+        }
+
+        public void Execute()
+        {
+            int[] arr = { 2, 5, 87, 56, 12, 4, 9, 23, 76, 1, 45 };
+
+            var result1 = Partition(arr, 15, 30);
+            Console.WriteLine("[{0}]", string.Join(", ", result1));
+
+            int[] array = { 2, 2, 2, 0, 0, 0, 1, 1 };
+            var result2 = Partition(array, 1, 1);
+            Console.WriteLine("[{0}]", string.Join(", ", result2));
         }
     }
 }

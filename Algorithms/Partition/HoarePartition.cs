@@ -1,10 +1,42 @@
-﻿using System;
+﻿using Algorithms;
 
-namespace LomutoPartition
+namespace Partition
 {
-    class Program
+    class HoarePartition : IExecute
     {
-        static void Main(string[] args)
+        private static void Partition(int[] inputElements, int low, int high)
+        {
+            int pivot = inputElements[low];
+            int i = low, j = high;
+            while (true)
+            {
+                while (inputElements[i] < pivot)
+                {
+                    i++;
+                }
+
+                while (inputElements[j] >= pivot)
+                {
+                    j--;
+                }
+
+                if (i >= j)
+                {
+                    //return j;
+                }
+
+                Swap(inputElements, i, j);
+            }
+        }
+
+        private static void Swap(int[] nums, int i, int j)
+        {
+            int temp = nums[j];
+            nums[j] = nums[i];
+            nums[i] = temp;
+        }
+
+        public void Execute()
         {
             // Input the Elements by user.
             Console.WriteLine("Welcome to Lomuto Partition !!!");
@@ -31,7 +63,7 @@ namespace LomutoPartition
             Console.WriteLine();
 
             // Perform Merge Sort.
-            LomutoPartition(inputElements, 0, noOfElements - 1);
+            Partition(inputElements, 0, noOfElements - 1);
 
             // Sorted Elements.
             Console.WriteLine("Elements after Sorting are as follows : ");
@@ -43,28 +75,6 @@ namespace LomutoPartition
 
             Console.WriteLine();
             Console.ReadKey(true);
-        }
-
-        private static void LomutoPartition(int[] inputElements, int low, int high)
-        {
-            int pivot = inputElements[high];
-            int i = low;
-            for (int j = low; j < high; j++)
-            {
-                if (inputElements[j] <= pivot)
-                {
-                    Swap(inputElements, i, j);
-                    i++;
-                }
-            }
-            Swap(inputElements,i, high);
-        }
-
-        private static void Swap(int[] nums, int i, int j)
-        {
-            int temp = nums[j];
-            nums[j] = nums[i];
-            nums[i] = temp;
         }
     }
 }

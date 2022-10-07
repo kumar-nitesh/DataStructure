@@ -1,10 +1,37 @@
-﻿using System;
+﻿using Algorithms;
 
-namespace SelectionSort
+namespace Sort
 {
-    class Program
+    public class SelectionSort : IExecute
     {
-        static void Main(string[] args)
+        static int[] Sort(int[] array, int size)
+        {
+            int index, temp;
+
+            for (int i = 0; i < size - 1; i++)
+            {
+                index = i;
+
+                for (int j = i + 1; j < size; j++)
+                {
+                    if (array[index] > array[j])
+                    {
+                        index = j;
+                    }
+                }
+
+                if (index != i)
+                {
+                    temp = array[i];
+                    array[i] = array[index];
+                    array[index] = temp;
+                }
+            }
+
+            return array;
+        }
+
+        public void Execute()
         {
             // Input the Elements by user.
             Console.WriteLine("Welcome to Bubble Sort !!!");
@@ -31,7 +58,7 @@ namespace SelectionSort
             Console.WriteLine();
 
             // Perform Selection Sort.
-            var sortedElements = SelectionSort(inputElements, noOfElements);
+            var sortedElements = Sort(inputElements, noOfElements);
 
             // Sorted Elements.
             Console.WriteLine("Elements after Sorting are as follows : ");
@@ -43,33 +70,6 @@ namespace SelectionSort
 
             Console.WriteLine();
             Console.ReadKey(true);
-        }
-
-        static int[] SelectionSort(int[] array, int size)
-        {
-            int index, temp;
-
-            for (int i = 0; i < size - 1; i++)
-            {
-                index = i;
-
-                for (int j = i + 1; j < size; j++)
-                {
-                    if (array[index] > array[j])
-                    {
-                        index = j;
-                    }
-                }
-
-                if (index != i)
-                {
-                    temp = array[i];
-                    array[i] = array[index];
-                    array[index] = temp;
-                }
-            }
-
-            return array;
         }
     }
 }
