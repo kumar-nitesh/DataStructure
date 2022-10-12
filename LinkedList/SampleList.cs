@@ -218,6 +218,37 @@
             Console.WriteLine(linkedlist.DetectLoop(linkedlist.Head));
         }
 
+        public static void RemoveLoop()
+        {
+            Console.WriteLine("Linked List");
+
+            LinkedList linkedlist = new LinkedList();
+            linkedlist.Head = new Node(12);
+            linkedlist.Head.Next = new Node(20);
+            linkedlist.Head.Next.Next = new Node(35);
+            linkedlist.Head.Next.Next.Next = new Node(40);
+            linkedlist.Head.Next.Next.Next.Next = new Node(15);
+
+            linkedlist.Head.Next.Next.Next.Next.Next = linkedlist.Head.Next.Next;
+
+            Console.WriteLine("Linked List - Remove Loop");
+
+            ////Indefinite Loop
+            //while (linkedlist.Head != null)
+            //{
+            //    Console.WriteLine(linkedlist.Head.Data);
+            //    linkedlist.Head = linkedlist.Head.Next;
+            //}
+
+            linkedlist.RemoveLoop(linkedlist.Head);
+
+            while (linkedlist.Head != null)
+            {
+                Console.WriteLine(linkedlist.Head.Data);
+                linkedlist.Head = linkedlist.Head.Next;
+            }
+        }
+
         public static void Reverse()
         {
             Console.WriteLine("Linked List");

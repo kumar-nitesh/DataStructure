@@ -1,8 +1,9 @@
 ﻿using LinkedList;
 
+SampleList.RemoveLoop();
 //SampleList.Operations();
 //SampleList.Rotate();
-SampleList.Reverse();
+//SampleList.Reverse();
 //SampleList.DetectLoop();
 //SampleList.IntersectionPoint();
 //SampleList.Operations();
