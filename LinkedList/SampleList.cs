@@ -363,5 +363,30 @@
                 result = result1.Next;
             }
         }
+
+        public static void NthFromEnd()
+        {
+            Console.WriteLine("RemoveNthFromEnd in a Linked List");
+
+            LinkedList linkedlist = new LinkedList();
+
+            linkedlist.AddAtHead(9);
+            linkedlist.AddAtHead(8);
+            linkedlist.AddAtHead(7);
+            linkedlist.AddAtHead(4);
+            linkedlist.AddAtHead(2);
+
+            Console.WriteLine("The Size of the Linked List is : " + linkedlist.Size);
+            Console.WriteLine("The Elements in the Linked List are : ");
+
+            Console.WriteLine(linkedlist.Get(0));
+            Console.WriteLine(linkedlist.Get(1));
+            Console.WriteLine(linkedlist.Get(2));
+            Console.WriteLine(linkedlist.Get(3));
+            Console.WriteLine(linkedlist.Get(4));
+
+            Console.WriteLine("Linked List - RemoveNthFromEnd");
+            Console.WriteLine(linkedlist.Print(linkedlist.Head, 3));
+        }
     }
 }

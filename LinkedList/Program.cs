@@ -1,6 +1,7 @@
 ﻿using LinkedList;
 
-SampleList.RemoveLoop();
+SampleList.NthFromEnd();
+//SampleList.RemoveLoop();
 //SampleList.Operations();
 //SampleList.Rotate();
 //SampleList.Reverse();
