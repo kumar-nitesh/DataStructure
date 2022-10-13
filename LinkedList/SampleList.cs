@@ -2,6 +2,9 @@
 {
     public static class SampleList
     {
+        /// <summary>
+        /// Solution - https://www.prepbytes.com/blog/linked-list/given-only-a-pointer-to-a-node-to-be-deleted-in-a-singly-linked-list-how-do-you-delete-it/
+        /// </summary>
         public static void Operations()
         {
             Console.WriteLine("Linked List");
@@ -387,6 +390,63 @@
 
             Console.WriteLine("Linked List - RemoveNthFromEnd");
             Console.WriteLine(linkedlist.Print(linkedlist.Head, 3));
+        }
+
+        public static void DeleteNode()
+        {
+            Console.WriteLine("DeleteWithoutHeadPointer in a Linked List");
+
+            LinkedList linkedlist = new LinkedList();
+
+            linkedlist.AddAtHead(9);
+            linkedlist.AddAtHead(8);
+            linkedlist.AddAtHead(7);
+            linkedlist.AddAtHead(4);
+            linkedlist.AddAtHead(2);
+
+            Console.WriteLine("The Size of the Linked List is : " + linkedlist.Size);
+            Console.WriteLine("The Elements in the Linked List are : ");
+
+            Console.WriteLine(linkedlist.Get(0));
+            Console.WriteLine(linkedlist.Get(1));
+            Console.WriteLine(linkedlist.Get(2));
+            Console.WriteLine(linkedlist.Get(3));
+            Console.WriteLine(linkedlist.Get(4));
+
+            Console.WriteLine("Linked List - DeleteWithoutHeadPointer");
+            linkedlist.DeleteNode(linkedlist.Head.Next.Next);
+
+            while (linkedlist.Head != null)
+            {
+                Console.WriteLine(linkedlist.Head.Data);
+                linkedlist.Head = linkedlist.Head.Next;
+            }
+        }
+
+        public static void IsPalindrome()
+        {
+            Console.WriteLine("Palindrome in a Linked List");
+
+            LinkedList linkedlist = new LinkedList();
+
+            linkedlist.AddAtHead(3);
+            linkedlist.AddAtHead(1);
+            linkedlist.AddAtHead(18);
+            linkedlist.AddAtHead(1);
+            linkedlist.AddAtHead(3);
+
+            Console.WriteLine("The Size of the Linked List is : " + linkedlist.Size);
+            Console.WriteLine("The Elements in the Linked List are : ");
+
+            Console.WriteLine(linkedlist.Get(0));
+            Console.WriteLine(linkedlist.Get(1));
+            Console.WriteLine(linkedlist.Get(2));
+            Console.WriteLine(linkedlist.Get(3));
+            Console.WriteLine(linkedlist.Get(4));
+
+            Console.WriteLine("Linked List - IsPalindrome");
+
+            Console.WriteLine(linkedlist.IsPalindrome(linkedlist.Head));
         }
     }
 }
