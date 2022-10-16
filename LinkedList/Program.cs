@@ -1,6 +1,8 @@
-﻿using LinkedList;
+﻿
+using LinkedList;
 
-SampleList.Flatten();
+SampleList.AddTwoNumbers();
+//SampleList.Flatten();
 //SampleList.Sort();
 //SampleList.IsPalindrome();
 //SampleList.DeleteNode();

@@ -486,39 +486,6 @@
             }
         }
 
-        private static Node SetMultiLevelFlattenData()
-        {
-            int[] arr1 = new int[] { 10, 5, 12, 7, 11 };
-            int[] arr2 = new int[] { 4, 20, 13 };
-            int[] arr3 = new int[] { 17, 6 };
-            int[] arr4 = new int[] { 9, 8 };
-            int[] arr5 = new int[] { 19, 15 };
-            int[] arr6 = new int[] { 2 };
-            int[] arr7 = new int[] { 16 };
-            int[] arr8 = new int[] { 3 };
-
-            /* create 8 linked lists */
-            Node head1 = CreateList(arr1, arr1.Length);
-            Node head2 = CreateList(arr2, arr2.Length);
-            Node head3 = CreateList(arr3, arr3.Length);
-            Node head4 = CreateList(arr4, arr4.Length);
-            Node head5 = CreateList(arr5, arr5.Length);
-            Node head6 = CreateList(arr6, arr6.Length);
-            Node head7 = CreateList(arr7, arr7.Length);
-            Node head8 = CreateList(arr8, arr8.Length);
-
-            /* modify child pointers to
-            create the list shown above */
-            head1.down = head2;
-            head1.Next.Next.Next.down = head3;
-            head3.down = head4;
-            head4.down = head5;
-            head2.Next.down = head6;
-            head2.Next.Next.down = head7;
-            head7.down = head8;
-            return head1;
-        }
-
         public static void Sort()
         {
             Console.WriteLine("Sort in a Linked List");
@@ -578,6 +545,37 @@
             }
         }
 
+        public static void AddTwoNumbers()
+        {
+            Console.WriteLine("Add Two Numbers in a Linked List");
+
+            LinkedList firstList = new LinkedList();
+            firstList.AddAtHead(5);
+            firstList.AddAtHead(4);
+
+            LinkedList secondList = new LinkedList();
+            secondList.AddAtHead(5);
+            secondList.AddAtHead(4);
+            secondList.AddAtHead(3);
+
+            Console.WriteLine("The Size of the Linked List is : " + firstList.Size);
+            Console.WriteLine("The Elements in the First Linked List are : ");
+
+            Console.WriteLine(firstList.Get(0));
+            Console.WriteLine(firstList.Get(1));
+
+            Console.WriteLine("The Size of the Linked List is : " + firstList.Size);
+            Console.WriteLine("The Elements in the Second Linked List are : ");
+
+            Console.WriteLine(secondList.Get(0));
+            Console.WriteLine(secondList.Get(1));
+            Console.WriteLine(secondList.Get(2));
+
+            Console.WriteLine("The Sum of the Linked List is : " + firstList.Size);
+            var result = firstList.AddTwoNumbers(firstList.Head, secondList.Head);
+            Display(result);
+        }
+
         private static void Display(Node result)
         {
             while (result != null)
@@ -616,6 +614,39 @@
                 p.Next = p.down = null;
             }
             return node;
+        }
+
+        private static Node SetMultiLevelFlattenData()
+        {
+            int[] arr1 = new int[] { 10, 5, 12, 7, 11 };
+            int[] arr2 = new int[] { 4, 20, 13 };
+            int[] arr3 = new int[] { 17, 6 };
+            int[] arr4 = new int[] { 9, 8 };
+            int[] arr5 = new int[] { 19, 15 };
+            int[] arr6 = new int[] { 2 };
+            int[] arr7 = new int[] { 16 };
+            int[] arr8 = new int[] { 3 };
+
+            /* create 8 linked lists */
+            Node head1 = CreateList(arr1, arr1.Length);
+            Node head2 = CreateList(arr2, arr2.Length);
+            Node head3 = CreateList(arr3, arr3.Length);
+            Node head4 = CreateList(arr4, arr4.Length);
+            Node head5 = CreateList(arr5, arr5.Length);
+            Node head6 = CreateList(arr6, arr6.Length);
+            Node head7 = CreateList(arr7, arr7.Length);
+            Node head8 = CreateList(arr8, arr8.Length);
+
+            /* modify child pointers to
+            create the list shown above */
+            head1.down = head2;
+            head1.Next.Next.Next.down = head3;
+            head3.down = head4;
+            head4.down = head5;
+            head2.Next.down = head6;
+            head2.Next.Next.down = head7;
+            head7.down = head8;
+            return head1;
         }
     }
 }

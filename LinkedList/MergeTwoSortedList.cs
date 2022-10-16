@@ -1,4 +1,15 @@
-﻿namespace LinkedList
+﻿/********************************************************************************************
+ * Merge two sorted linked lists.
+ * 
+ * Source     : Geeks for Geeks(Must Do)
+ * Difficulty : Medium
+ * Problem    : https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1
+ * Solution   : https://www.youtube.com/watch?v=6vFEuO1pfJA
+ * Time Complexity  : O(n + m)        
+ * Space complexity : O(1) 
+ ********************************************************************************************/
+
+namespace LinkedList
 {
     public partial class LinkedList
     {
