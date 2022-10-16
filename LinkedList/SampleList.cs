@@ -360,7 +360,7 @@
             Console.WriteLine("Linked List - Right Shift");
             var result1 = linkedlist.RightShift(linkedlist1.Head, 4);
 
-            while (result != null)
+            while (result1 != null)
             {
                 Console.WriteLine(result1.Data);
                 result = result1.Next;
@@ -453,28 +453,71 @@
         {
             Console.WriteLine("Flatten in a Linked List");
 
-            LinkedList linkedlist = new LinkedList();
+            LinkedList flattenList = new LinkedList();
+            flattenList.Head = Push(flattenList.Head, 30);
+            flattenList.Head = Push(flattenList.Head, 8);
+            flattenList.Head = Push(flattenList.Head, 7);
+            flattenList.Head = Push(flattenList.Head, 5);
+            flattenList.Head.Next = Push(flattenList.Head.Next, 20);
+            flattenList.Head.Next = Push(flattenList.Head.Next, 10);
+            flattenList.Head.Next.Next = Push(flattenList.Head.Next.Next, 50);
+            flattenList.Head.Next.Next = Push(flattenList.Head.Next.Next, 22);
+            flattenList.Head.Next.Next = Push(flattenList.Head.Next.Next, 19);
 
-            linkedlist.AddAtHead(3);
-            linkedlist.AddAtHead(1);
-            linkedlist.AddAtHead(18);
-            linkedlist.AddAtHead(1);
-            linkedlist.AddAtHead(3);
+            Console.WriteLine("Linked List - Flatten");
+            var result = flattenList.Flatten(flattenList.Head);
 
-            Console.WriteLine("The Size of the Linked List is : " + linkedlist.Size);
-            Console.WriteLine("The Elements in the Linked List are : ");
+            Node temp = result;
+            while (temp != null)
+            {
+                Console.Write(temp.Data + " ");
+                temp = temp.down;
+            }
 
-            Console.WriteLine(linkedlist.Get(0));
-            Console.WriteLine(linkedlist.Get(1));
-            Console.WriteLine(linkedlist.Get(2));
-            Console.WriteLine(linkedlist.Get(3));
-            Console.WriteLine(linkedlist.Get(4));
+            Console.WriteLine("Linked List - Multi-Level Flatten");
 
-            Console.WriteLine("Linked List - IsPalindrome");
+            Node head1 = SetMultiLevelFlattenData();
 
-            Console.WriteLine(linkedlist.IsPalindrome(linkedlist.Head));
+            flattenList.MultilevelFlatten(head1);
+            while (head1 != null)
+            {
+                Console.Write(head1.Data + " ");
+                head1 = head1.Next;
+            }
         }
 
+        private static Node SetMultiLevelFlattenData()
+        {
+            int[] arr1 = new int[] { 10, 5, 12, 7, 11 };
+            int[] arr2 = new int[] { 4, 20, 13 };
+            int[] arr3 = new int[] { 17, 6 };
+            int[] arr4 = new int[] { 9, 8 };
+            int[] arr5 = new int[] { 19, 15 };
+            int[] arr6 = new int[] { 2 };
+            int[] arr7 = new int[] { 16 };
+            int[] arr8 = new int[] { 3 };
+
+            /* create 8 linked lists */
+            Node head1 = CreateList(arr1, arr1.Length);
+            Node head2 = CreateList(arr2, arr2.Length);
+            Node head3 = CreateList(arr3, arr3.Length);
+            Node head4 = CreateList(arr4, arr4.Length);
+            Node head5 = CreateList(arr5, arr5.Length);
+            Node head6 = CreateList(arr6, arr6.Length);
+            Node head7 = CreateList(arr7, arr7.Length);
+            Node head8 = CreateList(arr8, arr8.Length);
+
+            /* modify child pointers to
+            create the list shown above */
+            head1.down = head2;
+            head1.Next.Next.Next.down = head3;
+            head3.down = head4;
+            head4.down = head5;
+            head2.Next.down = head6;
+            head2.Next.Next.down = head7;
+            head7.down = head8;
+            return head1;
+        }
 
         public static void Sort()
         {
@@ -533,6 +576,46 @@
                 Console.WriteLine(result1.Data);
                 result1 = result1.Next;
             }
+        }
+
+        private static void Display(Node result)
+        {
+            while (result != null)
+            {
+                Console.WriteLine(result.Data);
+                result = result.Next;
+            }
+        }
+
+        private static Node Push(Node head_ref, int data)
+        {
+            Node new_node = new Node(data);
+
+            new_node.down = head_ref;
+            head_ref = new_node;
+            return head_ref;
+        }
+
+        private static Node CreateList(int[] arr, int n)
+        {
+            Node node = null;
+            Node p = null;
+
+            int i;
+            for (i = 0; i < n; ++i)
+            {
+                if (node == null)
+                {
+                    node = p = new Node(arr[i]);
+                }
+                else
+                {
+                    p.Next = new Node(arr[i]);
+                    p = p.Next;
+                }
+                p.Next = p.down = null;
+            }
+            return node;
         }
     }
 }

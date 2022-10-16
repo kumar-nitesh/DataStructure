@@ -1,6 +1,7 @@
 ﻿using LinkedList;
 
-SampleList.Sort();
+SampleList.Flatten();
+//SampleList.Sort();
 //SampleList.IsPalindrome();
 //SampleList.DeleteNode();
 //SampleList.NthFromEnd();
