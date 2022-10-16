@@ -448,5 +448,91 @@
 
             Console.WriteLine(linkedlist.IsPalindrome(linkedlist.Head));
         }
+
+        public static void Flatten()
+        {
+            Console.WriteLine("Flatten in a Linked List");
+
+            LinkedList linkedlist = new LinkedList();
+
+            linkedlist.AddAtHead(3);
+            linkedlist.AddAtHead(1);
+            linkedlist.AddAtHead(18);
+            linkedlist.AddAtHead(1);
+            linkedlist.AddAtHead(3);
+
+            Console.WriteLine("The Size of the Linked List is : " + linkedlist.Size);
+            Console.WriteLine("The Elements in the Linked List are : ");
+
+            Console.WriteLine(linkedlist.Get(0));
+            Console.WriteLine(linkedlist.Get(1));
+            Console.WriteLine(linkedlist.Get(2));
+            Console.WriteLine(linkedlist.Get(3));
+            Console.WriteLine(linkedlist.Get(4));
+
+            Console.WriteLine("Linked List - IsPalindrome");
+
+            Console.WriteLine(linkedlist.IsPalindrome(linkedlist.Head));
+        }
+
+
+        public static void Sort()
+        {
+            Console.WriteLine("Sort in a Linked List");
+
+            LinkedList linkedlist = new LinkedList();
+
+            linkedlist.AddAtHead(1);
+            linkedlist.AddAtHead(0);
+            linkedlist.AddAtHead(1);
+            linkedlist.AddAtHead(2);
+            linkedlist.AddAtHead(0);
+
+            Console.WriteLine("The Size of the Linked List is : " + linkedlist.Size);
+            Console.WriteLine("The Elements in the Linked List are : ");
+
+            Console.WriteLine(linkedlist.Get(0));
+            Console.WriteLine(linkedlist.Get(1));
+            Console.WriteLine(linkedlist.Get(2));
+            Console.WriteLine(linkedlist.Get(3));
+            Console.WriteLine(linkedlist.Get(4));
+
+            Console.WriteLine("Linked List - Sort");
+
+            var result = linkedlist.Sort(linkedlist.Head);
+
+            while (result != null)
+            {
+                Console.WriteLine(result.Data);
+                result = result.Next;
+            }
+
+            LinkedList linkedlist1 = new LinkedList();
+
+            linkedlist1.AddAtHead(1);
+            linkedlist1.AddAtHead(2);
+            linkedlist1.AddAtHead(0);
+            linkedlist1.AddAtHead(1);
+            linkedlist1.AddAtHead(0);
+
+            Console.WriteLine("The Size of the Linked List is : " + linkedlist1.Size);
+            Console.WriteLine("The Elements in the Linked List are : ");
+
+            Console.WriteLine(linkedlist1.Get(0));
+            Console.WriteLine(linkedlist1.Get(1));
+            Console.WriteLine(linkedlist1.Get(2));
+            Console.WriteLine(linkedlist1.Get(3));
+            Console.WriteLine(linkedlist1.Get(4));
+
+            Console.WriteLine("Linked List - Sort In Place");
+
+            var result1 = linkedlist.SortInPlace(linkedlist1.Head);
+
+            while (result1 != null)
+            {
+                Console.WriteLine(result1.Data);
+                result1 = result1.Next;
+            }
+        }
     }
 }

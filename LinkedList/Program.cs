@@ -1,6 +1,7 @@
 ﻿using LinkedList;
 
-SampleList.IsPalindrome();
+SampleList.Sort();
+//SampleList.IsPalindrome();
 //SampleList.DeleteNode();
 //SampleList.NthFromEnd();
 //SampleList.RemoveLoop();
