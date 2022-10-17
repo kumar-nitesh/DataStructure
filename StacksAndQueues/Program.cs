@@ -1,4 +1,4 @@
-﻿using Arrays;
+﻿using StacksAndQueues;
 
 var type = typeof(IExecute);
 var types = AppDomain.CurrentDomain.GetAssemblies()

@@ -1,4 +1,17 @@
-﻿namespace Strings
+﻿/********************************************************************************************
+ * Parenthesis Checker
+ * 
+ * Source     : Geeks for Geeks(Must Do)
+ * Difficulty : Easy
+ * Problem    : https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1 * 
+ * Solution   : https://iq.opengenus.org/flattening-a-linked-list/
+ * 
+ * Time Complexity  : O(n)        
+ * Space complexity : O(n) 
+ ********************************************************************************************/
+
+
+namespace StacksAndQueues
 {
     public class ValidParentheses : IExecute
     {
