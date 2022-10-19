@@ -7,7 +7,7 @@ var types = AppDomain.CurrentDomain.GetAssemblies()
 
 foreach (var t in types)
 {
-    if (t.Name == "NextLargerElement")
+    if (t.Name == "RottenOranges")
     {
         var initiatedObject = (IExecute?)Activator.CreateInstance(t);
         initiatedObject?.Execute();
