@@ -4,8 +4,9 @@
  * Source     : Geeks for Geeks(Must Do)
  * Difficulty : Medium
  * Problem    : https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream/0
- * Solution   : 
- * 
+ * Solution   : https://github.com/joric/interviewbit/blob/master/programming/random/first-non-repeating-character-in-a-stream-of-characters.md
+ *              https://www.youtube.com/watch?v=_gJ3to4RyeQ
+ *              
  * Time Complexity  : O(n)        
  * Space complexity : O(1) 
  ********************************************************************************************/
