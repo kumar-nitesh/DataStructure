@@ -10,9 +10,7 @@
  * Space complexity : O(n) 
  ********************************************************************************************/
 
-using StacksAndQueues;
-
-namespace Arrays
+namespace StacksAndQueues.Stack
 {
     public class NextLargerElement : IExecute
     {

@@ -10,8 +10,7 @@
  * Space complexity : O(n) 
  ********************************************************************************************/
 
-
-namespace StacksAndQueues
+namespace StacksAndQueues.Stack
 {
     public class ValidParentheses : IExecute
     {

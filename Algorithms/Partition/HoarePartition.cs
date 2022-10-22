@@ -1,6 +1,4 @@
-﻿using Algorithms;
-
-namespace Partition
+﻿namespace Algorithms.Partition
 {
     class HoarePartition : IExecute
     {

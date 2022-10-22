@@ -7,6 +7,9 @@ var types = AppDomain.CurrentDomain.GetAssemblies()
 
 foreach (var t in types)
 {
-    var initiatedObject = (IExecute?)Activator.CreateInstance(t);
-    initiatedObject?.Execute();
+    if (t.Name == "MaximumSubarrays")
+    {
+        var initiatedObject = (IExecute?)Activator.CreateInstance(t);
+        initiatedObject?.Execute();
+    }
 }

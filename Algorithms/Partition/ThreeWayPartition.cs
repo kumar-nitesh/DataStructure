@@ -1,6 +1,4 @@
-﻿using Algorithms;
-
-namespace ThreeWayPartition
+﻿namespace Algorithms.Partition
 {
     public class ThreeWayPartition : IExecute
     {

@@ -1,6 +1,4 @@
-﻿using Algorithms;
-
-namespace Search
+﻿namespace Algorithms.Search
 {
     public class BinarySearch : IExecute
     {

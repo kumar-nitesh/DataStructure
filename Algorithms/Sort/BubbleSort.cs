@@ -1,6 +1,4 @@
-﻿using Algorithms;
-
-namespace Sort
+﻿namespace Algorithms.Sort
 {
     public class BubbleSort : IExecute
     {

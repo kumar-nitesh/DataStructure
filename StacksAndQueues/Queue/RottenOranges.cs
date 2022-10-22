@@ -10,7 +10,7 @@
  * Space complexity : O(m * n) 
  ********************************************************************************************/
 
-namespace StacksAndQueues
+namespace StacksAndQueues.Queue
 {
     public class RottenOranges : IExecute
     {

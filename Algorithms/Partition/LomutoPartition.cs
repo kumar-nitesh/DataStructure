@@ -1,6 +1,4 @@
-﻿using Algorithms;
-
-namespace LomutoPartition
+﻿namespace Algorithms.Partition
 {
     class LomutoPartition : IExecute
     {
