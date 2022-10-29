@@ -26,6 +26,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "Algorithms\Al
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StacksAndQueues", "StacksAndQueues\StacksAndQueues.csproj", "{FD0B39ED-0685-4FDD-9C0F-CDC21EB4424B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgramming", "Dynamic-Programming\DynamicProgramming.csproj", "{C742C03A-9918-408B-AE0B-8D1ECDFE86B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{FD0B39ED-0685-4FDD-9C0F-CDC21EB4424B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD0B39ED-0685-4FDD-9C0F-CDC21EB4424B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD0B39ED-0685-4FDD-9C0F-CDC21EB4424B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C742C03A-9918-408B-AE0B-8D1ECDFE86B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C742C03A-9918-408B-AE0B-8D1ECDFE86B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C742C03A-9918-408B-AE0B-8D1ECDFE86B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C742C03A-9918-408B-AE0B-8D1ECDFE86B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
