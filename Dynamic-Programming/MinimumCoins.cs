@@ -4,10 +4,11 @@
  * Source     : Geeks for Geeks(Must Do)
  * Difficulty : Dynamic Programming - Medium
  * Problem    : https://practice.geeksforgeeks.org/problems/-minimum-number-of-coins4426/1 
- * Solution   : 
+ * Solution   : https://www.enjoyalgorithms.com/blog/minimum-coin-change
+ *              https://www.youtube.com/watch?v=mVg9CfJvayM
  * 
- * Time Complexity  : O(n)        
- * Space complexity : O(n) 
+ * Time Complexity  : O(coin size * amount)        
+ * Space complexity : O(amount) 
  ********************************************************************************************/
 
 namespace DynamicProgramming
@@ -15,61 +16,114 @@ namespace DynamicProgramming
     public class MinimumCoins : IExecute
     {
         /// <summary>
-        /// Using Recursion
+        /// Combination Problem - Using Recursion
         /// </summary>
-        int OptimalKeys(int n)
+        int Memoization(int[] coins, int amount, int[] dp)
         {
-            if (n < 7)
-                return n;
+            if (amount == 0)
+                return 0;
 
-            int b, max = 0;
+            if (amount < 0)
+                return -1;
 
-            for (b = n - 3; b > 0; b--)
+            if (dp[amount - 1] != 0)
+                return dp[amount - 1];
+
+            int minCoins = int.MaxValue;
+
+            for (int i = 0; i < coins.Length; i++)
             {
-                int curr = (n - b - 1) * OptimalKeys(b);
-
-                if (curr > max)
+                if (amount >= coins[i])
                 {
-                    max = curr;
-                }
-            }
-            return max;
-        }
+                    int currentCoins = Memoization(coins, amount - coins[i], dp);
 
-        /// <summary>
-        /// Using Dynamic Programming
-        /// </summary>
-        int OptimalKeysUsingDP(int n)
-        {
-            if (n < 7)
-                return n;
-
-            int[] dp = new int[n + 1];
-            for (int i = 1; i <= 6; i++)
-            {
-                dp[i] = i;
-            }
-
-            for (int i = 7; i <= n; i++)
-            {
-                for (int j = i - 3; j >= 1; j--)
-                {
-                    int curr = dp[j] * (i - j - 1);
-
-                    if (curr > dp[i])
+                    if (currentCoins >= 0 && minCoins > currentCoins)
                     {
-                        dp[i] = curr;
+                        minCoins = currentCoins + 1;
                     }
                 }
             }
 
-            return dp[n];
+            dp[amount - 1] = (minCoins == int.MaxValue) ? -1 : minCoins;
+
+            return dp[amount - 1];
+        }
+
+        /// <summary>
+        /// Using Tabulation
+        /// Time Complexity  : O(n * amount)    
+        /// Space complexity : O(amount)
+        /// </summary>
+        int Tabulation(int[] coins, int amount, int[] dp)
+        {
+            if (amount == 0)
+                return 0;
+
+            if (amount < 0)
+                return int.MaxValue;
+
+            for (int i = 1; i <= amount; i++)
+            {
+                for (int j = 0; j < coins.Length; j++)
+                {
+                    if (i >= coins[j])
+                    {
+                        int currCount = dp[i - coins[j]];
+
+                        if (currCount != int.MaxValue && dp[i] > currCount + 1)
+                        {
+                            dp[i] = currCount + 1;
+                        }
+                    }
+                }
+            }
+
+            return dp[amount];
+        }
+
+        /// <summary>
+        /// Doesn't work if previous two elements sum is greater than next element.
+        /// </summary>
+        List<int> Greedy(int[] coins, int amount)
+        {
+            List<int> ans = new List<int>();
+            for (int i = coins.Length - 1; i >= 0; i--)
+            {
+                while (amount >= coins[i])
+                {
+                    amount -= coins[i];
+                    ans.Add(coins[i]);
+                }
+            }
+
+            return ans;
         }
 
         public void Execute()
         {
-            Console.WriteLine("The result is : " + OptimalKeys(9));
-            Console.WriteLine("The result is : " + OptimalKeysUsingDP(9));
+            int[] greedyCoins = new int[10]
+            {
+                1,2,5,10,20,50,100,200,500,2000
+            };
+
+            int[] dpCoins = new int[]
+            {
+               1,2,5
+            };
+
+            int greedyAmount = 43;
+            int dpAmount = 11;
+
+            int[] dpMemoization = new int[dpAmount + 1];
+            dpMemoization[0] = 0;
+            Console.WriteLine("The result is : " + Memoization(dpCoins, dpAmount, dpMemoization));
+
+            int[] dpTabular = new int[dpAmount + 1];
+            Array.Fill(dpTabular, int.MaxValue);
+            dpTabular[0] = 0;
+            Console.WriteLine("The result is : " + Tabulation(dpCoins, dpAmount, dpTabular));
+
+            Console.WriteLine("The result is : " + string.Join(",", Greedy(greedyCoins, greedyAmount)));
         }
     }
 }
