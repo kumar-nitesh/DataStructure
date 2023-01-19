@@ -28,6 +28,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StacksAndQueues", "StacksAn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgramming", "Dynamic-Programming\DynamicProgramming.csproj", "{C742C03A-9918-408B-AE0B-8D1ECDFE86B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{07FA7A8C-EB9D-467A-9B58-11260E516D6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{C742C03A-9918-408B-AE0B-8D1ECDFE86B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C742C03A-9918-408B-AE0B-8D1ECDFE86B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C742C03A-9918-408B-AE0B-8D1ECDFE86B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07FA7A8C-EB9D-467A-9B58-11260E516D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07FA7A8C-EB9D-467A-9B58-11260E516D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07FA7A8C-EB9D-467A-9B58-11260E516D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07FA7A8C-EB9D-467A-9B58-11260E516D6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
