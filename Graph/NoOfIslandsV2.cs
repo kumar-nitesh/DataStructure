@@ -1,9 +1,9 @@
 ﻿/********************************************************************************************
  * Longest Common Substring
  * 
- * Source     : Leet Code
+ * Source     : Geeks for Geeks
  * Difficulty : Graph - Medium
- * Problem    : https://leetcode.com/problems/number-of-islands/
+ * Problem    : https://practice.geeksforgeeks.org/problems/find-the-number-of-islands
  * Solution   : https://www.youtube.com/watch?v=__98uL6wst8
  * Time Complexity  : O(r * c)        
  * Space Complexity : O(r * c) 
@@ -11,11 +11,11 @@
 
 namespace Graph
 {
-    public class NoOfIslands : IExecute
+    public class NoOfIslandsV2 : IExecute
     {
         /// <summary>
         /// An island is surrounded by water and is formed by connecting adjacent lands 
-        /// horizontally or vertically i.e., in all 4 directions
+        /// horizontally or vertically or diagonally i.e., in all 8 directions
         /// </summary>
         /// <param name="grid"></param>
         /// <returns></returns>
@@ -53,10 +53,15 @@ namespace Graph
             grid[i, j] = 2;
 
             //Make recursive call in all 4 adjacent directions
-            MarkCurrentIsland(grid, i + 1, j, rows, cols);  //DOWN
-            MarkCurrentIsland(grid, i, j + 1, rows, cols);  //RIGHT
-            MarkCurrentIsland(grid, i - 1, j, rows, cols);  //TOP
-            MarkCurrentIsland(grid, i, j - 1, rows, cols);  //LEFT
+            MarkCurrentIsland(grid, i - 1, j, rows, cols);  //LEFT
+            MarkCurrentIsland(grid, i + 1, j, rows, cols);  //RIGHT
+            MarkCurrentIsland(grid, i, j + 1, rows, cols);  //UP
+            MarkCurrentIsland(grid, i, j - 1, rows, cols);  //DOWN
+
+            MarkCurrentIsland(grid, i - 1, j + 1, rows, cols);  //UPWARD-LEFT
+            MarkCurrentIsland(grid, i - 1, j - 1, rows, cols);  //DOWNWARD-LEFT
+            MarkCurrentIsland(grid, i + 1, j + 1, rows, cols);  //UPWARD-RIGHT
+            MarkCurrentIsland(grid, i + 1, j - 1, rows, cols);  //DOWNWARD-RIGHT
         }
 
         public void Execute()
@@ -71,10 +76,11 @@ namespace Graph
 
             int[,] grid2 = new int[,]
             {
-                { 1, 1, 1, 1, 0 },
-                { 1, 1, 0, 1, 0 },
                 { 1, 1, 0, 0, 0 },
-                { 0, 0, 0, 0, 0 }
+                { 0, 1, 0, 0, 1 },
+                { 1, 0, 0, 1, 1 },
+                { 0, 0, 0, 0, 0 },
+                { 1, 0, 1, 0, 1 }
             };
 
             Console.WriteLine("No. Of Islands : " + NumberOfIslands(grid1));
