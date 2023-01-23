@@ -31,6 +31,10 @@ namespace Graph
             return false;
         }
 
+        /// <summary>
+        /// Using DFS
+        /// Condition - Both visited and neighbour is not parent are true.
+        /// </summary>
         private static bool IsCyclic(AdjacencyList adjacencyList, int node, int parent, bool[] visited)
         {
             visited[node] = true;

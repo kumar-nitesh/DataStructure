@@ -32,6 +32,11 @@ namespace Graph
             return false;
         }
 
+
+        /// <summary>
+        /// Using DFS
+        /// Condition - Both visited and dfsVisited are true.
+        /// </summary>
         private static bool IsCyclic(AdjacencyList adjacencyList, int node, int parent, bool[] visited, bool[] dfsVisited)
         {
             visited[node] = true;
