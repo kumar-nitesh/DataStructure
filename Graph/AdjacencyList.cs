@@ -33,6 +33,11 @@
             AdjacentList[v].AddLast(u);
         }
 
+        public void AddDirectedEdge(int u, int v)
+        {
+            AdjacentList[u].AddLast(v);
+        }
+
         public void Print(AdjacencyList adjacentList)
         {
             for (int i = 0; i < adjacentList.NoOfVertices; i++)
