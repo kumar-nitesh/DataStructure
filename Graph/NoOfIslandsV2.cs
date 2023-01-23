@@ -1,10 +1,10 @@
 ﻿/********************************************************************************************
- * Longest Common Substring
+ * Find the number of islands
  * 
  * Source     : Geeks for Geeks
  * Difficulty : Graph - Medium
- * Problem    : https://practice.geeksforgeeks.org/problems/find-the-number-of-islands
- * Solution   : https://www.youtube.com/watch?v=__98uL6wst8
+ * Problem    : https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1
+ * Solution   : https://www.geeksforgeeks.org/find-the-number-of-islands-using-dfs/
  * Time Complexity  : O(r * c)        
  * Space Complexity : O(r * c) 
  ********************************************************************************************/

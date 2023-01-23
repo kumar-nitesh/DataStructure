@@ -1,5 +1,5 @@
 ﻿/********************************************************************************************
- * Longest Common Substring
+ * Find the number of islands
  * 
  * Source     : Leet Code
  * Difficulty : Graph - Medium
