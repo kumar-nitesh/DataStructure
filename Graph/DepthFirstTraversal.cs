@@ -1,4 +1,15 @@
-﻿namespace Graph
+﻿/********************************************************************************************
+ * Detect cycle in an undirected graph
+ * 
+ * Source     : Geeks for Geeks
+ * Difficulty : Graph - Medium
+ * Problem    : https://practice.geeksforgeeks.org/problems/dfs-traversal-of-graph/1
+ * Solution   : https://www.youtube.com/watch?v=b5kij1Akf9I
+ * Time Complexity  : O(v + e)        
+ * Space Complexity : O(v) 
+ ********************************************************************************************/
+
+namespace Graph
 {
     public class DepthFirstTraversal : IExecute
     {
@@ -43,13 +54,6 @@
         {
             int noOfVertices = 4;
             AdjacencyList adjacencyList = new AdjacencyList(noOfVertices);
-            //adjacencyList.AddEdge(0, 1);
-            //adjacencyList.AddEdge(0, 2);
-            //adjacencyList.AddEdge(1, 2);
-            //adjacencyList.AddEdge(2, 0);
-            //adjacencyList.AddEdge(2, 3);
-            //adjacencyList.AddEdge(3, 3);
-
             adjacencyList.AddEdge(0, 1);
             adjacencyList.AddEdge(0, 2);
             adjacencyList.AddEdge(1, 3);
