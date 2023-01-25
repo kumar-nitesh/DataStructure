@@ -1,5 +1,5 @@
 ﻿/********************************************************************************************
- * Topological sort
+ * Topological sort - Using DFS
  * 
  * Source     : Geeks for Geeks
  * Difficulty : Graph - Medium
