@@ -9,33 +9,51 @@
     /// </summary>
     public class AdjacencyMatrix : IExecute
     {
-        private int NoOfVertices { get; set; }
+        public int NoOfVertices { get; set; }
 
-        private int NoOfEdges { get; set; }
+        public int NoOfEdges { get; set; }
 
-        private int[,] AdjacentMatrix { get; set; }
+        public int[,] AdjacentMatrix { get; set; }
 
         public AdjacencyMatrix()
         {
 
         }
 
-        AdjacencyMatrix(int noOfVertices, int noOfEdges)
+        public AdjacencyMatrix(int noOfVertices, int noOfEdges)
         {
             NoOfVertices = noOfVertices;
             NoOfEdges = noOfEdges;
             AdjacentMatrix = new int[noOfVertices + 1, noOfEdges + 1];
         }
 
-        void AddEdge(int[,] adjMatrix, int u, int v)
+        public void AddEdge(int u, int v)
         {
-            adjMatrix[u, v] = 1;
-            adjMatrix[v, u] = 1;
+            AdjacentMatrix[u, v] = 1;
+            AdjacentMatrix[v, u] = 1;
         }
 
-        void Print(AdjacencyMatrix adjacencyMatrix)
+        public void AddWeightedEdge(int u, int v, int w)
         {
-            Console.WriteLine(String.Join(" ", adjacencyMatrix.AdjacentMatrix.Cast<int>()));
+            AdjacentMatrix[u, v] = w;
+            AdjacentMatrix[v, u] = w;
+        }
+
+        public void Print()
+        {
+            int rowLength = AdjacentMatrix.GetLength(0);
+            int colLength = AdjacentMatrix.GetLength(1);
+
+            for (int i = 0; i < rowLength; i++)
+            {
+                for (int j = 0; j < colLength; j++)
+                {
+                    Console.Write(string.Format("{0} ", AdjacentMatrix[i, j]));
+                }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine();
         }
 
         public void Execute()
@@ -43,12 +61,12 @@
             AdjacencyMatrix adjacencyMatrix = new AdjacencyMatrix(2, 2);
 
             // Adding edges one by one
-            AddEdge(adjacencyMatrix.AdjacentMatrix, 0, 1);
-            AddEdge(adjacencyMatrix.AdjacentMatrix, 1, 0);
-            AddEdge(adjacencyMatrix.AdjacentMatrix, 2, 1);
-            AddEdge(adjacencyMatrix.AdjacentMatrix, 1, 2);
+            adjacencyMatrix.AddEdge(0, 1);
+            adjacencyMatrix.AddEdge(1, 0);
+            adjacencyMatrix.AddEdge(2, 1);
+            adjacencyMatrix.AddEdge(1, 2);
 
-            Print(adjacencyMatrix);
+            Print();
         }
     }
 }
