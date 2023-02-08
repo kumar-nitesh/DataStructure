@@ -1,4 +1,8 @@
-﻿namespace Graph
+﻿/********************************************************************************************
+ * Representation of a Graph - Adjacency Matrix
+ ********************************************************************************************/
+
+namespace Graph
 {
     /// <summary>
     /// Removing an edge takes O(1) time.

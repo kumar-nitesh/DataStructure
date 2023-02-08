@@ -7,7 +7,7 @@ var types = AppDomain.CurrentDomain.GetAssemblies()
 
 foreach (var t in types)
 {
-    if (t.Name == "DijkstraAlgo")
+    if (t.Name == "DijkstraAlgoV2")
     {
         var initiatedObject = (IExecute?)Activator.CreateInstance(t);
         initiatedObject?.Execute();
