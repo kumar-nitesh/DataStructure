@@ -21,8 +21,7 @@ namespace Graph
         /// <param name="noOfVertices"></param>
         public List<int> BFS(AdjacencyList adjacencyList, int noOfVertices)
         {
-            // Mark all the vertices as not visited(set as
-            // false by default in java)
+            // Mark all the vertices as not visited.
             bool[] visited = new bool[noOfVertices];
             List<int> bfsTraversal = new List<int>();
 

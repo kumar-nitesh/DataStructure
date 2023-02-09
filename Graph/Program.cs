@@ -7,7 +7,7 @@ var types = AppDomain.CurrentDomain.GetAssemblies()
 
 foreach (var t in types)
 {
-    if (t.Name == "KosarajuAlgo")
+    if (t.Name == "ShortestPath")
     {
         var initiatedObject = (IExecute?)Activator.CreateInstance(t);
         initiatedObject?.Execute();
