@@ -37,7 +37,7 @@ namespace Graph
             AdjacentListWeighted[v].AddLast(Tuple.Create(u, w));
         }
 
-        public void AddDirectedEdge(int u, int v, int w)
+        public void AddDirectedWeightedEdge(int u, int v, int w)
         {
             AdjacentListWeighted[u].AddLast(Tuple.Create(v, w));
         }
