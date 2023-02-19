@@ -14,6 +14,7 @@ namespace Graph
     public class DijkstraAlgo : IExecute
     {
         /// <summary>
+        /// Dijkstra - The shorter path from a given node to all vertices
         /// Type of Greedy Algorithm
         /// Using Adjacency Matrix
         /// Time for visiting all vertices =O(V)
