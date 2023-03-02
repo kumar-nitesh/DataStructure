@@ -66,20 +66,12 @@ namespace Graph
 
         public void Execute()
         {
-            int noOfVertices = 6;
+            int noOfVertices = 5;
             AdjacencyList adjacencyList = new AdjacencyList(noOfVertices);
-            adjacencyList.AddEdge(0, 1);
+            adjacencyList.AddEdge(0, 2);
             adjacencyList.AddEdge(0, 3);
-            adjacencyList.AddEdge(0, 4);
-            adjacencyList.AddEdge(4, 5);
-            adjacencyList.AddEdge(3, 5);
-            adjacencyList.AddEdge(1, 2);
-            adjacencyList.AddEdge(1, 0);
-            adjacencyList.AddEdge(2, 1);
-            adjacencyList.AddEdge(4, 1);
-            adjacencyList.AddEdge(3, 1);
-            adjacencyList.AddEdge(5, 4);
-            adjacencyList.AddEdge(5, 3);
+            adjacencyList.AddEdge(0, 1);
+            adjacencyList.AddEdge(2, 4);
 
             Console.WriteLine("Following is Breadth First Traversal");
             var result = BFS(adjacencyList, noOfVertices);

@@ -43,21 +43,21 @@ namespace Graph
             Console.Write(vertex + " ");
 
             // Recur for all the vertices adjacent to this vertex
-            for (int i = 0; i < adjacencyList.AdjacentList.Count(); i++)
+            foreach (var node in adjacencyList.AdjacentList[vertex])
             {
-                if (!visited[i])
-                    DFSUtil(adjacencyList, i, visited);
+                if (!visited[node])
+                    DFSUtil(adjacencyList, node, visited);
             }
         }
 
         public void Execute()
         {
-            int noOfVertices = 4;
+            int noOfVertices = 5;
             AdjacencyList adjacencyList = new AdjacencyList(noOfVertices);
-            adjacencyList.AddEdge(0, 1);
             adjacencyList.AddEdge(0, 2);
-            adjacencyList.AddEdge(1, 3);
-            adjacencyList.AddEdge(2, 3);
+            adjacencyList.AddEdge(0, 3);
+            adjacencyList.AddEdge(0, 1);
+            adjacencyList.AddEdge(2, 4);
 
             Console.WriteLine("Following is Depth First Traversal");
             DFS(adjacencyList, noOfVertices);
