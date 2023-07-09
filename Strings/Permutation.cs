@@ -35,8 +35,6 @@
 
             Console.WriteLine("##########################################");
             Print("abcd", String.Empty);
-            //Console.WriteLine(CheckInclusion("ab", "eidboaoo"));
-
             Console.WriteLine("##########################################");
         }
     }
