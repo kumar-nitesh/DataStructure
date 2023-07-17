@@ -67,8 +67,3 @@ Mono v6.12.0.122
 int solution(char[][] board, string word) {
 
 }
-
-TESTS
-CUSTOM TESTS
-MORE
-Cannot edit in read-only editor

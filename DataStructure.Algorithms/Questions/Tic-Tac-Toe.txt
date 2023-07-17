@@ -1,11 +1,4 @@
-﻿Question 5 of 15
-Submitted
-0:00:00
-+
-0:00:26
-Codewriting
-
-A regular game of tic-tac-toe is played on a 3-by-3 grid. The ACME board company is putting out a generalized version of tic-tac-toe that is played on an n-by-n board.
+﻿A regular game of tic-tac-toe is played on a 3-by-3 grid. The ACME board company is putting out a generalized version of tic-tac-toe that is played on an n-by-n board.
 
 In this variant, players take turns placing an X or an O on the board, and the game ends when one of the players wins or there are no spaces left to play. A player wins if they place a move that satisfies one of the following three conditions:
 
