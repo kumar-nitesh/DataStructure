@@ -30,7 +30,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgramming", "Dynam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph", "Graph\Graph.csproj", "{07FA7A8C-EB9D-467A-9B58-11260E516D6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trie", "Trie\Trie.csproj", "{E25AC3E4-E7B1-47F3-9DB8-8585C54CF892}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trie", "Trie\Trie.csproj", "{E25AC3E4-E7B1-47F3-9DB8-8585C54CF892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure.Algorithms", "DataStructure.Algorithms\DataStructure.Algorithms.csproj", "{16914AF0-9648-4718-AA14-0F27BF09DA29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 		{E25AC3E4-E7B1-47F3-9DB8-8585C54CF892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E25AC3E4-E7B1-47F3-9DB8-8585C54CF892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E25AC3E4-E7B1-47F3-9DB8-8585C54CF892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16914AF0-9648-4718-AA14-0F27BF09DA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16914AF0-9648-4718-AA14-0F27BF09DA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16914AF0-9648-4718-AA14-0F27BF09DA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16914AF0-9648-4718-AA14-0F27BF09DA29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
