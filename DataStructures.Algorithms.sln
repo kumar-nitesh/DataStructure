@@ -3,18 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Questions", "Questions", "{3507B5F4-2119-4975-821B-861E9316C59F}"
-	ProjectSection(SolutionItems) = preProject
-		Questions\MCQ.txt = Questions\MCQ.txt
-		Net.txt = Net.txt
-		Questions\Phone-Number-Regex.txt = Questions\Phone-Number-Regex.txt
-		Questions\Rectangular-Matrix.txt = Questions\Rectangular-Matrix.txt
-		StatisticsReporting.txt = StatisticsReporting.txt
-		Questions\Stream-Algorithm.txt = Questions\Stream-Algorithm.txt
-		Questions\Tic-Tac-Toe.txt = Questions\Tic-Tac-Toe.txt
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure.Algorithms", "DataStructure.Algorithms\DataStructure.Algorithms.csproj", "{16914AF0-9648-4718-AA14-0F27BF09DA29}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.Algorithms", "DataStructure.Algorithms\DataStructures.Algorithms.csproj", "{16914AF0-9648-4718-AA14-0F27BF09DA29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
