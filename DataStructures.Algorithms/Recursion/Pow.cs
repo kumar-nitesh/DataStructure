@@ -28,9 +28,9 @@ namespace DataStructures.Algorithms.Recursion
 
             Console.WriteLine("Using Binary Exponentiation");
 
-            Console.WriteLine(BinaryExponentiation(2.00000, 10));
-            Console.WriteLine(BinaryExponentiation(2.10000, 3));
-            Console.WriteLine(BinaryExponentiation(2.00000, -2));
+            Console.WriteLine(BinaryExponentiationRecursive(2.00000, 10));
+            Console.WriteLine(BinaryExponentiationRecursive(2.10000, 3));
+            Console.WriteLine(BinaryExponentiationRecursive(2.00000, -2));
         }
 
         /// <summary>
@@ -58,28 +58,35 @@ namespace DataStructures.Algorithms.Recursion
         /// Time complexity : O(log⁡n)
         /// Space complexity: O(1)
         /// </summary>
-        public double BinaryExponentiation(double x, int n)
+        public double BinaryExponentiationRecursive(double x, int n)
         {
             if (n == 0)
             {
                 return 1;
             }
 
+            if (n == Int32.MinValue)
+            {
+                n = -(n + 1);
+                x = 1.0 / x;
+                return x * x * BinaryExponentiationRecursive(x * x, n / 2);
+            }
+
             if (n < 0)
             {
-                return 1 / BinaryExponentiation(x, -n);
+                return 1 / BinaryExponentiationRecursive(x, -n);
             }
 
             if (n % 2 == 1)
             {
-                return x * BinaryExponentiation(x * x, (n - 1) / 2);
+                return x * BinaryExponentiationRecursive(x * x, (n - 1) / 2);
             }
             else
             {
-                BinaryExponentiation(x * x, (n - 1) / 2);
+                BinaryExponentiationRecursive(x * x, (n - 1) / 2);
             }
 
-            return x * BinaryExponentiation(x, n - 1);
+            return x * BinaryExponentiationRecursive(x, n - 1);
         }
     }
 }
