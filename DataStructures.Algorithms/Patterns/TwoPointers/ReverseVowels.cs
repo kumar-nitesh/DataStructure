@@ -10,7 +10,7 @@
  * Space complexity : O(n) 
  ********************************************************************************************/
 
-namespace DataStructures.Algorithms.Strings
+namespace DataStructures.Algorithms.Patterns.TwoPointers
 {
     public class ReverseVowels : IExecute
     {
