@@ -10,7 +10,7 @@
  * Space complexity : O(1) 
  ********************************************************************************************/
 
-namespace DataStructures.Algorithms.Recursion
+namespace DataStructures.Algorithms.Search
 {
     public class Peak : IExecute
     {
