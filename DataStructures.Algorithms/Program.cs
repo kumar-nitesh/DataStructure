@@ -7,7 +7,7 @@ var types = AppDomain.CurrentDomain.GetAssemblies()
 
 foreach (var t in types)
 {
-    if (t.Name == "IsSubsequence")
+    if (t.Name == "MinSpeed")
     {
         var initiatedObject = (IExecute?)Activator.CreateInstance(t);
         initiatedObject?.Execute();
