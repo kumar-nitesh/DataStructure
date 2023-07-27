@@ -10,7 +10,7 @@
  * Space complexity : O(1) 
  ********************************************************************************************/
 
-namespace DataStructures.Algorithms.Search
+namespace DataStructures.Algorithms.BinarySearch
 {
     public class MinSpeed : IExecute
     {
