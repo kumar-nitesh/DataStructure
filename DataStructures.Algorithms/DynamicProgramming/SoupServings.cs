@@ -14,8 +14,6 @@ namespace DataStructures.Algorithms.DynamicProgramming
 {
     internal class SoupServings : IExecute
     {
-        Dictionary<Tuple<int, int>, double> memoization = new Dictionary<Tuple<int, int>, double>();
-
         public void Execute()
         {
             Console.WriteLine("###LeetCode###");
@@ -24,47 +22,44 @@ namespace DataStructures.Algorithms.DynamicProgramming
 
             Console.WriteLine("Using Dynamic Programming\n");
 
-            Console.WriteLine("The Probability is " + FindProbability(50));
+            Console.WriteLine("The Probability is " + CalculateProbability(50));
         }
 
-        public double FindProbability(int num)
+        public double CalculateProbability(int n)
         {
-            if (num > 4451)
+            if (n > 5000)
             {
                 return 1.0;
             }
 
-            num = (num + 24) / 25;
-
-            return dp(num, num);
+            var memo = new Dictionary<(int, int), double>();
+            double totalProbability = GetProbability(n, n, memo);
+            return totalProbability;
         }
 
-        private double dp(int a, int b)
+        private double GetProbability(int remainingSoupA, int remainingSoupB, Dictionary<(int, int), double> memo)
         {
-            if (a <= 0 && b <= 0)
-            {
+            if (remainingSoupA <= 0 && remainingSoupB <= 0)
                 return 0.5;
-            }
 
-            if (a <= 0)
-            {
+            if (remainingSoupA <= 0)
                 return 1.0;
-            }
 
-            if (b <= 0)
-            {
+            if (remainingSoupB <= 0)
                 return 0.0;
-            }
 
-            var key = Tuple.Create(a, b);
+            if (memo.TryGetValue((remainingSoupA, remainingSoupB), out double cachedProbability))
+                return cachedProbability;
 
-            if (memoization.ContainsKey(key))
-            {
-                return memoization[key];
-            }
+            double probability = 0.25 * (
+                GetProbability(remainingSoupA - 100, remainingSoupB, memo) +
+                GetProbability(remainingSoupA - 75, remainingSoupB - 25, memo) +
+                GetProbability(remainingSoupA - 50, remainingSoupB - 50, memo) +
+                GetProbability(remainingSoupA - 25, remainingSoupB - 75, memo)
+            );
 
-            memoization[key] = 0.25 * (dp(a - 4, b) + dp(a - 3, b - 1) + dp(a - 2, b - 2) + dp(a - 1, b - 3));
-            return memoization[key];
+            memo[(remainingSoupA, remainingSoupB)] = probability;
+            return probability;
         }
     }
 }
