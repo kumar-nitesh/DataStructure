@@ -6,8 +6,8 @@
  * Problem    : https://leetcode.com/problems/permutations/
  * Solution   : https://chadgolden.com/blog/finding-all-the-permutations-of-an-array-in-c-sharp
  * 
- * Time Complexity  : O(n⋅* n!)        
- * Space complexity : O(n) 
+ * Time Complexity  : O(n!)        
+ * Space complexity : O(n!) 
  ********************************************************************************************/
 
 namespace DataStructures.Algorithms.Recursion

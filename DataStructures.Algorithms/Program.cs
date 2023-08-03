@@ -7,7 +7,7 @@ var types = AppDomain.CurrentDomain.GetAssemblies()
 
 foreach (var t in types)
 {
-    if (t.Name == "Combinations")
+    if (t.Name == "LetterCombinations")
     {
         var initiatedObject = (IExecute?)Activator.CreateInstance(t);
         initiatedObject?.Execute();
